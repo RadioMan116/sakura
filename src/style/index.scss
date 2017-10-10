@@ -48,13 +48,13 @@ body {
 
 //внешний вид меню
 .header-info {
-  background: aquamarine;
-  opacity: 0.8;
+  background-color: rgba(178, 178, 178, 0.7);
   height: 60px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
+
 
 .info {
   margin-left: 35px;
@@ -88,15 +88,18 @@ body {
 .menu ul li ul {
   position: absolute;
   list-style: none;
-  top: 0;
-  left: 100px;
+  top: -3px;
+  left: 140px;
 
 }
 
 .menu > ul li a {
   display: block;
+  background-color: rgba(178, 178, 178, 0.7);
   padding: 20px;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
@@ -113,11 +116,11 @@ body {
 
 .menu > h1 {
   height: 50px;
-  font-size: 40px;
-  font-weight: bold;
-  font-style: italic;
-  color: #ffffff;
-  text-shadow: 0 6px 8px #000000;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+  color: #000000;
+  padding-top: 10px;
 }
 
 .info {
@@ -126,7 +129,12 @@ body {
 }
 
 .info > h4 {
-  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.25;
+  text-align: left;
+  color: #000000;
+  margin-right: 15px;
 }
 
 .logo {
@@ -361,10 +369,13 @@ body {
   position: absolute;
   left: 50px;
   top: 50px;
-  border: 1px solid black;
+  //border: 1px solid black;
   width: 322px;
   height: 201px;
   background: white;
+}
+.discounts_card_1 > img {
+  max-width: 100%;
 }
 
 .discounts_card_2 {
