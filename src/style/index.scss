@@ -44,7 +44,6 @@ body {
   display: flex;
   width: 960px;
   margin: 0 auto;
-  flex-direction: column;
 }
 
 //внешний вид меню
@@ -456,7 +455,7 @@ body {
 
 .menu_selection_p {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 900;
   text-align: left;
   color: #ffffff;
 }
@@ -476,7 +475,7 @@ body {
 
 .menu_title_p {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 900;
   text-align: center;
   color: #000000;
 }
@@ -527,8 +526,8 @@ body {
 .list {
   margin: 20px;
   width: 180px;
-  height: 190px;
-  border: 1px solid black;
+  min-height: 190px;
+  border: 1px solid #FFFF00;
   position: relative;
 }
 
@@ -538,38 +537,151 @@ body {
 }
 
 .pizza_img {
-  height: 95px;
+  max-width: 100%;
+  height: 85px;
   margin: 10px 0;
 }
 
 .pizza_main {
-  max-width: 100%;
 }
 
 .pizza_main_two {
   width: 180px;
-  height: 190px;
-  border: 1px solid red;
+  min-height: 190px;
+  border: solid 1px rgba(155, 155, 155, 0.2);
   position: absolute;
   top: -1px;
   right: -1px;
   background: white;
 }
+
 .pizza_h4 {
   display: flex;
   justify-content: center;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 900;
   font-style: italic;
   text-align: center;
   color: #000000;
   margin: 15px 0 0 0;
 }
+
 .pizza_p {
   margin: 0;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 900;
   font-style: italic;
   text-align: center;
-  color: #f9c252;
+  color: gold;
+}
+
+.closed_pizza {
+  margin-top: 50px;
+}
+
+.closed_pizza_menu {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.closed_pizza_img {
+  width: 300px;
+  height: 330px;
+  margin: 0 20px 20px 20px;
+}
+
+.closed_img {
+  height: 252px;
+}
+
+.closed_pizza_price {
+  width: 600px;
+}
+
+.closed_p {
+  font-size: 16px;
+  font-weight: 900;
+  text-align: left;
+  color: #000000;
+}
+
+.closed_black {
+  font-size: 16px;
+  font-weight: 900;
+  text-align: left;
+  color: #000000;
+}
+
+.closed_grey {
+  font-size: 16px;
+  text-align: left;
+  color: #4a4a4a;
+}
+
+.delivery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.delivery_info {
+  width: 350px;
+}
+
+.delivery_h3 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: left;
+  color: #000000;
+}
+.delivery_h4 {
+  margin-top: 20px;
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 35px;
+  text-align: left;
+  color: #000000;
+}
+.delivery_p {
+  font-size: 16px;
+  text-align: left;
+  line-height: 30px;
+  color: #4a4a4a;
+}
+.want_do {
+  background: black;
+  padding: 50px 0;
+}
+.want_do_main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.want_h1 {
+  margin-top: 45px;
+  width: 100%;
+  font-size: 80px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  color: #ffffff;
+}
+.want_do_link {
+  margin-top: 20px;
+  width: 360px;
+}
+.want_do_a{
+  text-decoration: none;
+}
+.want_do_h3 {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+}
+.want_do_img {
+  max-width: 100%;
 }
