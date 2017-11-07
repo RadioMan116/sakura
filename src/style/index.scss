@@ -1,3 +1,4 @@
+
 html, body {
   height: 100%;
   margin: 0;
@@ -9,19 +10,18 @@ body {
   padding: 0;
   font-family: Roboto-BoldItalic, sans-serif;
   font-size: 18px;
+  background: url("");
 }
 
 .header {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding-bottom: 40px;
-  min-height: 670px;
+  justify-content: space-between;
+  height: 670px;
   width: 100%;
   background-size: cover;
   background: url("/images/background.jpg") no-repeat;
-  background-position: center center;
+  background-size: 100% 100%;
 
   &__burger {
     background: url("/images/burger.jpg") no-repeat center;
@@ -34,30 +34,44 @@ body {
   &__pizza {
     background: url("/images/pizza.jpg") no-repeat center;
   }
+  &__hotdishes {
+    background: url("/images/hoteat.jpg") no-repeat center;
+  }
 }
 
 .wrapper {
-  max-width: 1200px;
+  max-width: 1024px;
   width: 100%;
+  margin: 0 auto;
 }
 
 .container {
   display: flex;
-  width: 960px;
+  width: 83%;
   margin: 0 auto;
+  flex-direction: column;
 }
 
 //внешний вид меню
 .header-info {
-  background-color: rgba(178, 178, 178, 0.7);
-  height: 60px;
+  background-color: rgba(255, 255, 255, 0.62);
+  height: 10%;
   width: 100%;
+  flex-wrap: nowrap;
   display: flex;
-  flex-wrap: wrap;
+
 }
 
 .info {
-  margin-left: 35px;
+  width: 68%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.menu_header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .menu * {
@@ -68,7 +82,7 @@ body {
 .menu {
   display: flex;
   height: 145px;
-  width: 300px;
+  width: 28%;
 }
 
 .menu img {
@@ -123,24 +137,30 @@ body {
   padding-top: 10px;
 }
 
-.info {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.info > h4 {
+.info_h4 {
   font-size: 16px;
-  font-weight: 500;
-  line-height: 1.25;
   text-align: left;
   color: #000000;
-  margin-right: 15px;
+  width: 39%;
+  padding: 0 5px;
+}
+
+.info_h4:first-child {
+  width: 34%;
+}
+
+.info_h4:last-child {
+  width: 23%;
+  text-decoration: underline;
+}
+
+.logo_greeting {
+  width: 100%;
 }
 
 .logo {
   width: 385px;
   height: 222px;
-  margin-top: 125px;
 }
 
 .logo > h1 {
@@ -154,24 +174,22 @@ body {
 .greeting {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  width: 300px;
+  width: 100%;
   height: 300px;
 
 }
 
 .greeting > h2 {
-  width: 151px;
-  height: 28px;
+  width: 44%;
   font-size: 24px;
-  font-weight: 500;
-  text-align: left;
+  font-weight: normal;
+  text-align: center;
   color: #ffffff;
 }
 
 .greeting > p {
-  width: 280px;
+  width: 29%;
+  padding-left: 7%;
   height: 100px;
   font-size: 14px;
   line-height: 1.43;
@@ -187,14 +205,14 @@ body {
 }
 
 .advantage h2 {
-  font-size: 80px;
+  font-size: 40px;
   font-weight: 900;
   font-style: italic;
   line-height: 1.0;
   text-align: center;
   color: #ffffff;
   margin: 0;
-  padding: 0;
+  padding: 50px 0;
 
 }
 
@@ -204,17 +222,14 @@ body {
   justify-content: center;
 }
 
-.adv_zag_main {
-  width: 650px;
-}
-
 .adv_info {
   display: flex;
-
+  width: 100%;
+  align-items: center;
 }
 
 .adv_info_left {
-  width: 545px;
+  width: 70%;
   height: 170px;
   color: #ffffff;
   text-align: left;
@@ -224,7 +239,7 @@ body {
 .adv_info_left > h3 {
   font-size: 24px;
   font-weight: 500;
-
+  margin: 0;
 }
 
 .adv_info_left > p {
@@ -233,8 +248,8 @@ body {
 }
 
 .adv_info_right {
-  margin-left: 70px;
-  height: 170px;
+  width: 12%;
+  height: 100px;
 }
 
 .adv_info_right > img {
@@ -255,25 +270,30 @@ body {
 .adv_ft > img {
   width: 200px;
 }
+.adv_footer {
+  width: 100%;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 .adv_footer_h3 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
-  line-height: 1.67;
+  line-height: 1.8;
   text-align: left;
   color: white;
+  margin: 0;
 }
 
 .kitchen_menu {
-  height: 1000px;
   width: 100%;
   background: url("/images/bg2.jpg");
 }
 
 .k_menu {
-  margin-bottom: 50px;
-  //border: 1px solid black;
-  width: 300px;
+  width: 45%;
   height: 300px;
   &__title {
     text-align: center;
@@ -281,17 +301,22 @@ body {
 }
 
 .container__title {
-  font-size: 80px;
   font-weight: bold;
   font-style: italic;
   text-align: center;
   color: #4a4a4a;
+  font-size: 40px;
+  padding-top: 20px;
+  margin-bottom: 10px;
 }
 
 .kitchen_main {
 
 }
 
+.k_menu__title {
+  font-weight: 500;
+}
 .k_menu__img {
   max-width: 100%;
 }
@@ -300,14 +325,14 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  max-width: 80%;
-  justify-content: space-around;
+  width: 75%;
+  justify-content: space-between;
+  padding-bottom: 100px;
 }
 
 .k_menu > a {
   text-decoration: none;
   font-size: 24px;
-  font-weight: 500;
   color: #000000;
 }
 
@@ -318,7 +343,7 @@ body {
 }
 
 .discounts_h1 {
-  font-size: 80px;
+  font-size: 40px;
   font-weight: 900;
   font-style: italic;
   text-align: left;
@@ -335,10 +360,11 @@ body {
 }
 
 .discounts_h3 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   text-align: left;
   color: #ffffff;
+  margin-bottom: 0;
 }
 
 .discounts_p {
@@ -514,9 +540,14 @@ body {
 }
 
 .list {
-
+  &:hover {
+    border: 1px solid rgba(200, 200, 200, .8);
+  }
   &:hover &__some {
     display: block;
+  }
+  &:hover .rolli_img {
+    filter: blur(2px)
   }
 }
 
@@ -524,8 +555,10 @@ body {
   margin: 20px;
   width: 180px;
   min-height: 200px;
+  border: solid 1px rgba(155, 155, 155, 0.2);
   border: 1px solid #FFFF00;
   position: relative;
+  background: rgba(255, 255, 255, .6);
 }
 
 .list__some {
@@ -690,6 +723,7 @@ body {
 }
 
 .rolli_menu_h5 {
+  display: none;
   margin: 0 auto;
   width: 80%;
   height: 30px;
@@ -713,13 +747,15 @@ body {
 }
 
 .rolli_main_two {
-  width: 180px;
-  min-height: 200px;
-  border: solid 1px rgba(155, 155, 155, 0.2);
   position: absolute;
-  top: -1px;
-  right: -1px;
-  background: white;
+  top: 48px;
+  bottom: 40px;
+  right: 1px;
+  left: 1px;
+  background: rgba(255, 255, 255, .7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .rolli_h4 {
@@ -748,30 +784,193 @@ body {
   height: 85px;
   margin-top: 10px;
 }
+
 .menu_rolli_main {
   width: 100%;
-  border:1px solid black;
   margin-top: 50px;
 }
+
 .menu_rolli_main_h2 {
   font-size: 24px;
   font-weight: bold;
   line-height: 26.0px;
   text-align: center;
   color: #000000;
+  padding: 50px;
 }
+
 .rolli_main_img {
 
 }
+
 .menu_rolli_img {
   width: 100%;
 }
+
 .rolli_main_info {
-  border:1px solid black;
+  border: 1px solid black;
   display: flex;
 }
+
 .rolliinfo {
-  border: 1px solid black;
+  margin: 0 20px;
+  //width: 180px;
+  height: 200px;
+  border: 1px solid #b2b2b2;
+}
+
+.mini_rolli_info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mini_main_rolli {
   width: 200px;
-  height: 180px;
+  height: 400px;
+}
+
+.mini_img {
+  max-width: 100%;
+}
+
+.mini_p {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 3px;
+}
+
+.mini_h4 {
+  display: flex;
+  font-size: 16px;
+  font-weight: 900;
+  font-style: italic;
+  text-align: left;
+  color: #000000;
+  margin: 0;
+}
+
+.mini_rolli_p {
+  margin: 0 5px 0 0;
+  font-size: 16px;
+  font-weight: 900;
+  font-style: italic;
+  text-align: left;
+  color: gold;
+}
+
+.mini_h6 {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: italic;
+  text-align: left;
+  color: #000000;
+  margin: 0;
+}
+
+.assorted_rolli {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.assorted_info {
+  width: 45%;
+  height: 140px;
+}
+
+.assorted_h4 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 26.0px;
+  text-align: left;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.assorted_p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.0px;
+  text-align: left;
+  color: #000000;
+
+}
+
+.burger_main {
+  display: flex;
+  justify-content: center;
+}
+
+.burger_img {
+  width: 300px;
+  height: 280px;
+  max-width: 100%;
+  margin-right: 50px;
+}
+
+.burger_menu {
+  width: 450px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.burger_h4 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20.0px;
+  text-align: left;
+  color: #000000;
+  margin: 0;
+}
+
+.burger_h3 {
+  font-size: 16px;
+  line-height: 20.0px;
+  text-align: left;
+  color: #747474;
+  margin: 0;
+
+}
+
+.hot_main {
+  display: flex;
+  justify-content: center;
+}
+
+.hot_img {
+  width: 200px;
+  height: 200px;
+  max-width: 100%;
+  margin-right: 50px;
+}
+
+.hot_menu {
+  width: 450px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hot_h4 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  color: #000000;
+  margin: 0;
+  display: flex;
+}
+
+.hot_p {
+  margin: 0 5px 0 0;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  color: gold;
 }

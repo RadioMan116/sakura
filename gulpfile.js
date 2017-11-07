@@ -17,21 +17,21 @@ gulp.task('grid', function () {
 });
 
 gulp.task('sass', function () {
-    return gulp.src('src/style/**/*.scss')
+    return gulp.src('src/style/**/*')
         .pipe(sass())
         .pipe(cssmin())
         .pipe(gulp.dest('dist/style/'));
 });
 
 gulp.task('scripts', function () {
-    return gulp.src('src/js/**/*.js')
+    return gulp.src('src/js/**/*')
         // .pipe(babel({
         //     presets: ['es2015']
         // }))
         .pipe(uglify().on('error', function (e) {
             console.log(e);
         }))
-        .pipe(gulp.dest('./dist/'))
+        .pipe(gulp.dest('./dist/js/'))
 });
 
 gulp.task('sections', ['sass'], function () {

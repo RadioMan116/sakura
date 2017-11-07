@@ -8,6 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/style/index.css">
     <link rel="stylesheet" href="/style/grid-system.css">
+    <link rel="stylesheet" href="style/owl/owl.carousel.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.css">
+    <script src="/js/jquery-3.2.1.min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/action.js"></script>
+
 </head>
 <body>
 <!--<div class="grid">-->
@@ -20,15 +26,15 @@
                     <h1>Меню</h1>
                     <ul>
                         <li>
-                            <a href="Sakura.html">Главная</a>
+                            <a href="Main.html">Главная</a>
                         </li>
                         <li>
                             <a href="#">Продукция</a>
                             <ul>
-                                <li><a href="Sakura4.html">Пицца</a></li>
-                                <li><a href="Sakura3.html">Роллы</a></li>
-                                <li><a href="#">Горячие блюда</a></li>
-                                <li><a href="Sakura2.html">Бургеры</a></li>
+                                <li><a href="pizza.html">Пицца</a></li>
+                                <li><a href="rolli.html">Роллы</a></li>
+                                <li><a href="hotdishes.html">Горячие блюда</a></li>
+                                <li><a href="burger.html">Бургеры</a></li>
                             </ul>
                         </li>
                         <li><a href="#">Контакты</a>
@@ -693,14 +699,35 @@
                     <div class="menu_rolli_img">
                         <img class="rolli_main_img" src="images/mainrolli.png" alt="">
                     </div>
-                    <div class="rolli_main_info">
-                        <div class="rolliinfo"></div>
-                        <div class="rolliinfo"></div>
-                        <div class="rolliinfo"></div>
-                        <div class="rolliinfo"></div>
-                        <div class="rolliinfo"></div>
-                        <div class="rolliinfo"></div>
-                        <div class="rolliinfo"></div>
+                    <div class="owl-carousel ">
+                        <div class="rolliinfo"><h5 class="rolli_menu_h5">Кодзу</h5>
+                            <p class="rolli_menu_p">Курица х/к, зеленый лук, сливочный сыр</p>
+                            <h4 class="rolli_h4"><p class="rolli_p">190 руб</p>230 грамм</h4>
+                        </div>
+                        <div class="rolliinfo"><h5 class="rolli_menu_h5">Такара</h5>
+                            <p class="rolli_menu_p">Креветка, лист салата, сливочный сыр</p>
+                            <h4 class="rolli_h4"><p class="rolli_p">190 руб</p>230 грамм</h4>
+                        </div>
+                        <div class="rolliinfo"><h5 class="rolli_menu_h5">Хисака</h5>
+                            <p class="rolli_menu_p">Тунец, сливочный сыр, болгарский перец</p>
+                            <h4 class="rolli_h4"><p class="rolli_p">190 руб</p>230 грамм</h4>
+                        </div>
+                        <div class="rolliinfo"><h5 class="rolli_menu_h5">Инуями</h5>
+                            <p class="rolli_menu_p">Мидии, томат, сливочный сыр</p>
+                            <h4 class="rolli_h4"><p class="rolli_p">190 руб</p>230 грамм</h4>
+                        </div>
+                        <div class="rolliinfo"><h5 class="rolli_menu_h5">Кумэ</h5>
+                            <p class="rolli_menu_p">Угорь, томат, сливочный сыр</p>
+                            <h4 class="rolli_h4"><p class="rolli_p">190 руб</p>230 грамм</h4>
+                        </div>
+                        <div class="rolliinfo"><h5 class="rolli_menu_h5">Цукуба</h5>
+                            <p class="rolli_menu_p">Жар.Окунь, лосось в «терияке», сливочный сыр</p>
+                            <h4 class="rolli_h4"><p class="rolli_p">190 руб</p>230 грамм</h4>
+                        </div>
+                        <div class="rolliinfo"><h5 class="rolli_menu_h5">Энаке</h5>
+                            <p class="rolli_menu_p">Охот.Колбаса, редис такун, сливочный сыр зеленый лук</p>
+                            <h4 class="rolli_h4"><p class="rolli_p">190 руб</p>230 грамм</h4>
+                        </div>
                     </div>
                 </div>
                 <div class="menu_rolli_main">
@@ -708,105 +735,198 @@
                     <div class="menu_rolli_img">
                         <img class="rolli_main_img" src="images/mainrolli2.png" alt="">
                     </div>
-                    <div class="rolli_main_info">
-                        <div class="rolliinfo"></div>
-                        <div class="rolliinfo"></div>
-                        <div class="rolliinfo"></div>
-                        <div class="rolliinfo"></div>
-                        <div class="rolliinfo"></div>
-                        <div class="rolliinfo"></div>
-                        <div class="rolliinfo"></div>
+                    <div class="owl-carousel ">
+                        <div class="rolliinfo"><h5 class="rolli_menu_h5">Эби</h5>
+                            <p class="rolli_menu_p">Креветка, икра тобико, сливочный сыр</p>
+                            <h4 class="rolli_h4"><p class="rolli_p">190 руб</p>230 грамм</h4>
+                        </div>
+                        <div class="rolliinfo"><h5 class="rolli_menu_h5">Унаги</h5>
+                            <p class="rolli_menu_p">Угорь, сливочный сыр, икра тобико</p>
+                            <h4 class="rolli_h4"><p class="rolli_p">190 руб</p>240 грамм</h4>
+                        </div>
+                        <div class="rolliinfo"><h5 class="rolli_menu_h5">Хонго</h5>
+                            <p class="rolli_menu_p">Лосось х/к, курица х/к, томат, сливочный сыр, зеленый лук </p>
+                            <h4 class="rolli_h4"><p class="rolli_p">190 руб</p>250 грамм</h4>
+                        </div>
+                        <div class="rolliinfo"><h5 class="rolli_menu_h5">Ясима</h5>
+                            <p class="rolli_menu_p">Курица, икра тобико, сливочный сыр </p>
+                            <h4 class="rolli_h4"><p class="rolli_p">190 руб</p>230 грамм</h4>
+                        </div>
+                        <div class="rolliinfo"><h5 class="rolli_menu_h5">Сяке</h5>
+                            <p class="rolli_menu_p">Лосось, икра тобико, сливочный сыр </p>
+                            <h4 class="rolli_h4"><p class="rolli_p">190 руб</p>230 грамм</h4>
+                        </div>
+                        <div class="rolliinfo"><h5 class="rolli_menu_h5">Сяке кунсей</h5>
+                            <p class="rolli_menu_p">Лосось х/к, икра тобико, сливочный сыр </p>
+                            <h4 class="rolli_h4"><p class="rolli_p">190 руб</p>230 грамм</h4>
+                        </div>
+                        <div class="rolliinfo"><h5 class="rolli_menu_h5">Кани</h5>
+                            <p class="rolli_menu_p">Мясо краба, икра тобико, сливочный сыр </p>
+                            <h4 class="rolli_h4"><p class="rolli_p">190 руб</p>230 грамм</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="menu_rolli_main">
-                    <h2 class="menu_rolli_main_h2">Запечённые роллы<br>под сыром</h2>
-                    <div class="menu_rolli_img">
-                        <img class="rolli_main_img" src="images/mainrolli3.png" alt="">
+                    <div class="menu_rolli_main">
+                        <h2 class="menu_rolli_main_h2">Запечённые роллы<br>под сыром</h2>
+                        <div class="menu_rolli_img">
+                            <img class="rolli_main_img" src="images/mainrolli3.png" alt="">
+                        </div>
+                        <div class="owl-carousel ">
+                            <div class="rolliinfo"><h5 class="rolli_menu_h5">Касадо</h5>
+                                <p class="rolli_menu_p">Угорь, томат, лосось, сливочный сыр, сыр моцарелла</p>
+                                <h4 class="rolli_h4"><p class="rolli_p">220 руб</p>270 грамм</h4>
+                            </div>
+                            <div class="rolliinfo"><h5 class="rolli_menu_h5">Торисима</h5>
+                                <p class="rolli_menu_p">Мясо краба, авокадо, сливочный сыр, креветка, сыр моцарелла </p>
+                                <h4 class="rolli_h4"><p class="rolli_p">220 руб</p>270 грамм</h4>
+                            </div>
+                            <div class="rolliinfo"><h5 class="rolli_menu_h5">Хокайдо</h5>
+                                <p class="rolli_menu_p">Курица х/к, зеленый лук, томат, бекон, сливочный сыр, сыр
+                                    моцарелла</p>
+                                <h4 class="rolli_h4"><p class="rolli_p">220 руб</p>270 грамм</h4>
+                            </div>
+                            <div class="rolliinfo"><h5 class="rolli_menu_h5">Кодзима</h5>
+                                <p class="rolli_menu_p">Лосось х/к, курицах/к, сливочный сыр, томат, сыр моцарелла</p>
+                                <h4 class="rolli_h4"><p class="rolli_p">220 руб</p>270 грамм</h4>
+                            </div>
+                            <div class="rolliinfo"><h5 class="rolli_menu_h5">Кайёси маки</h5>
+                                <p class="rolli_menu_p">Жар.Мидии, мясо краба, авокадо, сливочный сыр, сыр моцарелла</p>
+                                <h4 class="rolli_h4"><p class="rolli_p">220 руб</p>270 грамм</h4>
+                            </div>
+                            <div class="rolliinfo"><h5 class="rolli_menu_h5">Тесима</h5>
+                                <p class="rolli_menu_p">Курица х/к, авокадо, сливочный сыр, лосось, сыр моцарелла</p>
+                                <h4 class="rolli_h4"><p class="rolli_p">220 руб</p>270 грамм</h4>
+                            </div>
+                            <div class="rolliinfo"><h5 class="rolli_menu_h5">Косиски</h5>
+                                <p class="rolli_menu_p">Мар.Тунец, томат, соивочный сыр, сыр моцарелла</p>
+                                <h4 class="rolli_h4"><p class="rolli_p">220 руб</p>270 грамм</h4>
+                            </div>
+                            <div class="rolliinfo"><h5 class="rolli_menu_h5">Якуси</h5>
+                                <p class="rolli_menu_p">Лосось в «терияки», сливочный сыр, болг.Перец, сыр
+                                    моцарелла, </p>
+                                <h4 class="rolli_h4"><p class="rolli_p">220 руб</p>270 грамм</h4>
+                            </div>
+                        </div>
                     </div>
-                    <div class="rolli_main_info">
-                        <div class="rolliinfo"></div>
-                        <div class="rolliinfo"></div>
-                        <div class="rolliinfo"></div>
-                        <div class="rolliinfo"></div>
-                        <div class="rolliinfo"></div>
-                        <div class="rolliinfo"></div>
-                        <div class="rolliinfo"></div>
-                        <div class="rolliinfo"></div>
+                    <div class="menu_rolli_main">
+                        <h2 class="menu_rolli_main_h2">Гриль роллы<br>под сыром</h2>
+                        <div class="menu_rolli_img">
+                            <img class="rolli_main_img" src="images/mainrolli4.png" alt="">
+                        </div>
+                        <div class="owl-carousel ">
+                            <div class="rolliinfo"><h5 class="rolli_menu_h5">Койтори</h5>
+                                <p class="rolli_menu_p">Курица х/к, зеленый лук, сливочный сыр</p>
+                                <h4 class="rolli_h4"><p class="rolli_p">200 руб</p>250 грамм</h4>
+                            </div>
+                            <div class="rolliinfo"><h5 class="rolli_menu_h5">Бушидо</h5>
+                                <p class="rolli_menu_p">Креветка, лист салата, сливочный сыр</p>
+                                <h4 class="rolli_h4"><p class="rolli_p">200 руб</p>240 грамм</h4>
+                            </div>
+                            <div class="rolliinfo"><h5 class="rolli_menu_h5">Уме</h5>
+                                <p class="rolli_menu_p">Тунец, сливочный сыр, болгарский перец</p>
+                                <h4 class="rolli_h4"><p class="rolli_p">200 руб</p>240 грамм</h4>
+                            </div>
+                            <div class="rolliinfo"><h5 class="rolli_menu_h5">Айко</h5>
+                                <p class="rolli_menu_p">Мидии, томат, сливочный сыр</p>
+                                <h4 class="rolli_h4"><p class="rolli_p">200 руб</p>240 грамм</h4>
+                            </div>
+                            <div class="rolliinfo"><h5 class="rolli_menu_h5">Татами</h5>
+                                <p class="rolli_menu_p">Угорь, томат, сливочный сыр</p>
+                                <h4 class="rolli_h4"><p class="rolli_p">200 руб</p>250 грамм</h4>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="menu_rolli_main">
-                    <h2 class="menu_rolli_main_h2">Гриль роллы<br>под сыром</h2>
-                    <div class="menu_rolli_img">
-                        <img class="rolli_main_img" src="images/mainrolli4.png" alt="">
-                    </div>
-                    <div class="rolli_main_info">
-                        <div class="rolliinfo"></div>
-                        <div class="rolliinfo"></div>
-                        <div class="rolliinfo"></div>
-                        <div class="rolliinfo"></div>
-                        <div class="rolliinfo"></div>
-                    </div>
-                </div>
-                <h2 class="menu_title_h2"> Доставка </h2>
-                <div class="delivery">
-                    <div class="delivery_info"><h3 class="delivery_h3">Зеленодольский район</h3>
-                        <h4 class="delivery_h4">Доставка 50руб<br>Бесплатная от 350 руб</h4>
-                        <p class="delivery_p">Пос.Осиново<br>Пос.Ремплер<br>Пос.Воронино</p>
-                        <h4 class="delivery_h4">Доставка 100 руб <br>Бесплатная от 500 руб</h4>
-                        <p class="delivery_p">Пос.Новониколаевский<br>Пос.Ивановское<br>Пос.Новая
-                            тура<br>Пос.Дубровка<br>Пос.Новопольский</p>
-                    </div>
-                    <div class="delivery_info"><h3 class="delivery_h3">Кировский район</h3><h4 class="delivery_h4">
-                            Доставка 70руб<br>Бесплатная от 350 руб</h4>
-                        <p class="delivery_p">Пос.Залесный</p>
-                        <h4 class="delivery_h4">Доставка 150 руб <br>Бесплатная от 500 руб</h4>
-                        <p class="delivery_p">Пос.Юдино</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="want_do">
-        <h1 class="want_h1">Желаете ?</h1>
-        <div class="container">
-            <div class="want_do_main">
-                <div class="want_do_link"><a class="want_do_a" href=""><h3 class="want_do_h3">Закуски</h3><img
-                                class="want_do_img" src="images/menu2.jpg" alt=""></a></div>
-                <div class="want_do_link"><a class="want_do_a" href=""><h3 class="want_do_h3">Бургеры</h3><img
-                                class="want_do_img" src="images/menu4.jpg" alt=""></a></div>
-                <div class="want_do_link"><a class="want_do_a" href=""><h3 class="want_do_h3">Роллы</h3><img
-                                class="want_do_img" src="images/menu1.jpg" alt=""></a></div>
-            </div>
-        </div>
-    </div>
-    <footer class="footer">
-        <div class="container">
-            <div class="footer_main">
-                <div class="footer_info">
-                    <h3 class="footer_h3">Адрес</h3>
-                    <p class="footer_p">Адрес ул. Комарова 1 Б <br>Режим работы 10:00 - 22:00</p>
-                </div>
-                <div class="footer_info">
-                    <h3 class="footer_h3">Меню</h3>
-                    <a class="footer_a" href=""><h3 class="footer_info_h3">Пицца</h3></a>
-                    <a class="footer_a" href=""><h3 class="footer_info_h3">Роллы</h3></a>
-                    <a class="footer_a" href=""><h3 class="footer_info_h3">Бургеры</h3></a>
-                    <a class="footer_a" href=""><h3 class="footer_info_h3">Горячие блюда</h3></a>
-                </div>
-                <div class="footer_info">
-                    <h3 class="footer_h3">Подписывайтесь на нас</h3>
-                    <a href=""><img src="" alt=""></a>
-                    <a href=""><img src="" alt=""></a>
-                    <a href=""><img src="" alt=""></a>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <footer class="footer_mib">
-        <div class="container">
+                    <div class="minirolli">
+                        <h2 class="menu_rolli_main_h2">Мини роллы</h2>
+                        <div class="mini_rolli_info">
+                            <div class="mini_main_rolli"><img class="mini_img" src="images/mini1.png" alt="">
+                                <p class="mini_p">Мини ролл <br>без соусов</p>
+                                <h4 class="mini_h4"><p class="mini_rolli_p">105 руб</p>140 грамм</h4>
+                                <h6 class="mini_h6"><br>С лососем<br>С лососем х/к<br>С угрём<br>С креветкой<br>С курицей х/к<br>С тунцом<br>С мясом краба<br>С огурцом<br>С авокадо</h6></div>
+                            <div class="mini_main_rolli"><img class="mini_img" src="images/mini2.png" alt="">
+                                <p class="mini_p">Мини ролл спайс <br>с соусом «спайс»</p>
+                                <h4 class="mini_h4"><p class="mini_rolli_p">115 руб</p>150 грамм</h4>
+                                <h6 class="mini_h6"><br>С лососем<br>С лососем х/к<br>С угрём<br>С креветкой<br>С курицей х/к<br>С тунцом<br></div>
+                            <div class="mini_main_rolli"><img class="mini_img" src="images/mini3.png" alt="">
+                                <p class="mini_p">Мини ролл сливочный <br>с сливочным сыром</p>
+                                <h4 class="mini_h4"><p class="mini_rolli_p">130 руб</p>160 грамм</h4>
+                                <h6 class="mini_h6"><br>С лососем<br>С лососем х/к<br>С угрём<br>С креветкой<br>С курицей х/к<br>С мясом краба<br></div>
+                            <div class="mini_main_rolli"><img class="mini_img" src="images/mii4.png" alt="">
+                                <p class="mini_p">Мини ролл с икрой <br>без соуса</p>
+                                <h4 class="mini_h4"><p class="mini_rolli_p">120 руб</p>160 грамм</h4>
+                            </div>
+                        </div>
+                        <h2 class="menu_rolli_main_h2">Ассорти наборы</h2>
+                        <div class="assorted_rolli">
+                            <div class="assorted_info"><h4 class="assorted_h4">Ассорти 1</h4><h4 class="mini_h4">Вес 1015 грамм,<p class="mini_rolli_p">690 руб</p></h4><p class="assorted_p">Токио, унаги маки, филадельфия, бекон ролл</p></div>
+                            <div class="assorted_info"><h4 class="assorted_h4">Нагано</h4><h4 class="mini_h4">Вес 900 грамм,<p class="mini_rolli_p">630 руб</p></h4><p class="assorted_p">Торисима, жаренные в темпуре Сяке, Шах и мат, мини ролл с икрой</p></div>
+                            <div class="assorted_info"><h4 class="assorted_h4">Ассорти 2</h4><h4 class="mini_h4">Вес 950 грамм,<p class="mini_rolli_p">610 руб</p></h4><p class="assorted_p">Сливочная курочка, янаги, калифорния кани, гасан</p></div>
+                            <div class="assorted_info"><h4 class="assorted_h4">Жаренное ассорти</h4><h4 class="mini_h4">Вес 1230 грамм,<p class="mini_rolli_p">999 руб</p></h4><p class="assorted_p">Татами, хокайдо, запечённая калифорния, жаренные в темпуре сяке 1/2, ясима 1/2, инуями 1/2, кодзу 1/2</p></div>
+                            <div class="assorted_info"><h4 class="assorted_h4">Ассорти 3</h4><h4 class="mini_h4">Вес 730 грамм,<p class="mini_rolli_p">490 руб</p></h4><p class="assorted_p">Койтори, айко, филадельфия, яри</p></div>
+                            <div class="assorted_info"><h4 class="assorted_h4"> Сакура</h4><h4 class="mini_h4">Вес 1155 грамм,<p class="mini_rolli_p">830 руб</p></h4><p class="assorted_p">Дуэт, макси, калифорния кани 1/2, парадайс 1/2, сливочный лосось 1/2, сливочный угорь 1/2,  мини роллы с лосось 1/2, лосось х/к 1/2, курица 1/2, креветка 1/2, </p></div>
+                            <div class="assorted_info"><h4 class="assorted_h4">Ассорти 4,</h4><h4 class="mini_h4">Вес 680 грамм,<p class="mini_rolli_p">690 руб</p></h4><p class="assorted_p">Сливочная калифорния, мини ролл угорь, мини ролл спайс с курицей х/к и креветкой, мини ролл сливочный с лососем и лососем х/к </p></div>
 
+                        </div>
+                    </div>
+                    <h2 class="menu_title_h2"> Доставка </h2>
+                    <div class="delivery">
+                        <div class="delivery_info"><h3 class="delivery_h3">Зеленодольский район</h3>
+                            <h4 class="delivery_h4">Доставка 50руб<br>Бесплатная от 350 руб</h4>
+                            <p class="delivery_p">Пос.Осиново<br>Пос.Ремплер<br>Пос.Воронино</p>
+                            <h4 class="delivery_h4">Доставка 100 руб <br>Бесплатная от 500 руб</h4>
+                            <p class="delivery_p">Пос.Новониколаевский<br>Пос.Ивановское<br>Пос.Новая
+                                тура<br>Пос.Дубровка<br>Пос.Новопольский</p>
+                        </div>
+                        <div class="delivery_info"><h3 class="delivery_h3">Кировский район</h3><h4 class="delivery_h4">
+                                Доставка 70руб<br>Бесплатная от 350 руб</h4>
+                            <p class="delivery_p">Пос.Залесный</p>
+                            <h4 class="delivery_h4">Доставка 150 руб <br>Бесплатная от 500 руб</h4>
+                            <p class="delivery_p">Пос.Юдино</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </footer>
-</div>
+        <div class="want_do">
+            <h1 class="want_h1">Желаете ?</h1>
+            <div class="container">
+                <div class="want_do_main">
+                    <div class="want_do_link"><a class="want_do_a" href=""><h3 class="want_do_h3">Закуски</h3><img
+                                    class="want_do_img" src="images/menu2.jpg" alt=""></a></div>
+                    <div class="want_do_link"><a class="want_do_a" href=""><h3 class="want_do_h3">Бургеры</h3><img
+                                    class="want_do_img" src="images/menu4.jpg" alt=""></a></div>
+                    <div class="want_do_link"><a class="want_do_a" href=""><h3 class="want_do_h3">Роллы</h3><img
+                                    class="want_do_img" src="images/menu1.jpg" alt=""></a></div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer_main">
+                    <div class="footer_info">
+                        <h3 class="footer_h3">Адрес</h3>
+                        <p class="footer_p">Адрес ул. Комарова 1 Б <br>Режим работы 10:00 - 22:00</p>
+                    </div>
+                    <div class="footer_info">
+                        <h3 class="footer_h3">Меню</h3>
+                        <a class="footer_a" href=""><h3 class="footer_info_h3">Пицца</h3></a>
+                        <a class="footer_a" href=""><h3 class="footer_info_h3">Роллы</h3></a>
+                        <a class="footer_a" href=""><h3 class="footer_info_h3">Бургеры</h3></a>
+                        <a class="footer_a" href=""><h3 class="footer_info_h3">Горячие блюда</h3></a>
+                    </div>
+                    <div class="footer_info">
+                        <h3 class="footer_h3">Подписывайтесь на нас</h3>
+                        <a href=""><img src="" alt=""></a>
+                        <a href=""><img src="" alt=""></a>
+                        <a href=""><img src="" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <footer class="footer_mib">
+            <div class="container">
+
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
