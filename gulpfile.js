@@ -9,6 +9,11 @@ var ejs = require('gulp-ejs');
 // var babel = require('gulp-babel');
 var fs = require('fs');
 
+gulp.task('assets', function () {
+    return gulp.src('src/assets/*')
+        .pipe(gulp.dest('./dist/assets'));
+});
+
 gulp.task('grid', function () {
     return gulp.src('src/style/**/grid-system.scss')
         .pipe(sass())
@@ -43,7 +48,7 @@ gulp.task('sections', ['sass'], function () {
         .pipe(gulp.dest('./dist'))
 });
 
-gulp.task('assets', function () {
+gulp.task('images', function () {
     gulp.src(['./src/images/**/*'])
         .pipe(gulp.dest('./dist/images'))
 });
@@ -61,4 +66,4 @@ gulp.task('watch', ['default'], function () {
 });
 
 
-gulp.task('default', ['sass', 'assets', 'scripts', 'sections', 'fonts', 'grid']);
+gulp.task('default', ['sass', 'images', 'scripts', 'sections', 'fonts', 'grid', 'assets']);
