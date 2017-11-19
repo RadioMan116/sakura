@@ -1,6 +1,5 @@
 
 html, body {
-  height: 100%;
   margin: 0;
   font-family: Roboto, sans-serif;
 }
@@ -10,32 +9,35 @@ body {
   padding: 0;
   font-family: Roboto-BoldItalic, sans-serif;
   font-size: 18px;
-  background: url("");
+  align-items: center;
 }
 
 .header {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 670px;
+  justify-content: flex-start;
   width: 100%;
+  height: 38rem;
   background-size: cover;
   background: url("/images/background.jpg") no-repeat;
-  background-size: 100% 100%;
-
+  background-size: cover;
   &__burger {
     background: url("/images/burger.jpg") no-repeat center;
+    background-size: cover;
   }
 
   &__chef {
     background: url("/images/chef.jpg") no-repeat center;
+    background-size: cover;
   }
 
   &__pizza {
     background: url("/images/pizza.jpg") no-repeat center;
+    background-size: cover;
   }
   &__hotdishes {
     background: url("/images/hoteat.jpg") no-repeat center;
+    background-size: cover;
   }
 }
 
@@ -55,7 +57,7 @@ body {
 //внешний вид меню
 .header-info {
   background-color: rgba(255, 255, 255, 0.62);
-  height: 10%;
+  height: 4rem;
   width: 100%;
   flex-wrap: nowrap;
   display: flex;
@@ -66,6 +68,7 @@ body {
   width: 68%;
   display: flex;
   flex-wrap: nowrap;
+  align-items: center;
 }
 
 .menu_header {
@@ -81,43 +84,43 @@ body {
 
 .menu {
   display: flex;
-  height: 145px;
+  height: 4rem;
   width: 28%;
+  position: relative;
+  align-items: center;
 }
 
 .menu img {
-  width: 48px;
-  height: 48px;
+  width: 3rem;
+  height: 3rem;
+  padding: 0 5px;
+}
+
+.menu img:last-child {
+  height: 2.8rem;
 }
 
 .menu ul {
   list-style: none;
   display: none;
+  position: absolute;
+  top: 4rem;
 }
 
 .menu ul li {
-  position: relative;
-}
-
-.menu ul li ul {
-  position: absolute;
-  list-style: none;
-  top: -3px;
-  left: 140px;
 
 }
 
 .menu > ul li a {
   display: block;
   background-color: rgba(178, 178, 178, 0.7);
-  padding: 20px;
+  padding: 12px 13px;
   font-size: 16px;
   font-weight: 500;
   text-align: left;
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
-  min-width: 90px;
 }
 
 .menu:hover > ul {
@@ -134,7 +137,8 @@ body {
   font-weight: 500;
   text-align: left;
   color: #000000;
-  padding-top: 10px;
+  display: flex;
+  align-items: center;
 }
 
 .info_h4 {
@@ -159,8 +163,11 @@ body {
 }
 
 .logo {
-  width: 385px;
-  height: 222px;
+  width: 51%;
+  height: 8rem;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 9rem;
 }
 
 .logo > h1 {
@@ -169,13 +176,14 @@ body {
   font-style: italic;
   color: #ffffff;
   text-shadow: 0 6px 8px #000000;
+  margin: 0;
 }
 
 .greeting {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 300px;
+  height: 10rem;
 
 }
 
@@ -185,52 +193,54 @@ body {
   font-weight: normal;
   text-align: center;
   color: #ffffff;
+  padding-top: 1rem;
+  margin-bottom: 0;
 }
 
 .greeting > p {
-  width: 29%;
-  padding-left: 7%;
+  width: 34%;
+  padding-left: 5%;
   height: 100px;
   font-size: 14px;
   line-height: 1.43;
   text-align: center;
   color: #ffffff;
+  margin-top: 11px;
 }
 
 .advantage {
   background: #1a0610;
-  height: 700px;
   width: 100%;
-
+  padding-bottom: 2rem;
 }
 
 .advantage h2 {
   font-size: 40px;
   font-weight: 900;
   font-style: italic;
-  line-height: 1.0;
+  line-height: 1.35;
   text-align: center;
   color: #ffffff;
   margin: 0;
-  padding: 50px 0;
+  padding: 33px 0;
 
 }
 
 .adv_zag {
   width: 100%;
   display: flex;
+  height: 10rem;
   justify-content: center;
 }
 
 .adv_info {
   display: flex;
   width: 100%;
-  align-items: center;
+  height: 178px;
 }
 
 .adv_info_left {
-  width: 70%;
-  height: 170px;
+  width: 64%;
   color: #ffffff;
   text-align: left;
 
@@ -247,11 +257,13 @@ body {
   font-size: 16px;
   line-height: 20px;
   font-weight: 500;
+  margin: 0;
 }
 
 .adv_info_right {
   width: 12%;
   height: 100px;
+  margin: 13px auto;
 }
 
 .adv_info_right > img {
@@ -269,13 +281,23 @@ body {
   width: 24%;
 }
 
+.adv_p {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  margin: 0;
+  color: #ffffff;
+  text-align: left;
+
+}
+
 .adv_ft > img {
   width: 100%;
 }
 
 .adv_footer {
   width: 100%;
-  height: 210px;
+  height: 8rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -284,7 +306,7 @@ body {
 .adv_footer_h3 {
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.8;
+  line-height: 1.6;
   text-align: left;
   color: white;
   margin: 0;
@@ -296,8 +318,8 @@ body {
 }
 
 .k_menu {
-  width: 45%;
-  height: 300px;
+  width: 32%;
+  height: 288px;
   &__title {
     text-align: center;
   }
@@ -309,11 +331,11 @@ body {
   text-align: center;
   color: #4a4a4a;
   font-size: 40px;
-  padding-top: 20px;
-  margin-bottom: 10px;
+  padding-top: 26px;
 }
 
 .kitchen_main {
+  padding-bottom: 3rem;
 
 }
 
@@ -329,9 +351,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  width: 75%;
+  width: 100%;
   justify-content: space-between;
-  padding-bottom: 100px;
 }
 
 .k_menu > a {
@@ -343,7 +364,7 @@ body {
 .discounts {
   background: black;
   width: 100%;
-  height: 1400px;
+  height: 61.4rem;
 }
 
 .discounts_h1 {
@@ -352,6 +373,7 @@ body {
   font-style: italic;
   text-align: left;
   color: #ffffff;
+  margin-top: 3.4rem;
 }
 
 .discounts > .container {
@@ -367,44 +389,47 @@ body {
 
 .discounts_info {
   display: flex;
+  width: 100%;
   flex-wrap: wrap;
+  padding: 26px 0 0;
+  line-height: 1;
+  height: 13rem;
+}
+
+.discounts_info_two {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.discounts_h3, .discounts_h3_first, .discounts_p, .discounts_p_first {
+  width: 100%;
+  font-weight: normal;
+  margin: 0;
+  color: #fff;
+
+}
+
+.discounts_p, .discounts_p_first {
+  font-size: 16px;
+  text-align: left;
+  padding-bottom: 29px;
 }
 
 .discounts_h3 {
-  width: 50%;
   font-size: 20px;
-  font-weight: 500;
   text-align: left;
-  color: #ffffff;
-  margin: 0;
+
 }
 
 .discounts_h3_first {
   font-size: 20px;
-  width: 100%;
-  font-weight: 500;
   text-align: left;
-  color: #ffffff;
-  margin: 0;
-}
 
-.discounts_p {
-  width: 50%;
-  font-size: 16px;
-  text-align: left;
-  color: #ffffff;
-  margin: 0;
-}
-
-.discounts_p_first {
-  width: 100%;
-  font-size: 16px;
-  text-align: left;
-  color: #ffffff;
 }
 
 .discounts_img {
-  width: 30%;
+  width: 23%;
 
 }
 
@@ -414,70 +439,77 @@ body {
 
 .discounts_img_main {
   position: relative;
-
+  height: 16rem;
 }
 
 .discounts_card_1 {
   position: absolute;
   left: 50px;
   top: 50px;
-  //border: 1px solid black;
-  width: 322px;
-  height: 201px;
-  background: white;
+  border-radius: 5px;
+
 }
 
 .discounts_card_1 > img {
   max-width: 100%;
 }
 
+.discounts_card_1, .discounts_card_2 {
+  width: 20rem;
+  height: 12rem;
+  background: #fff;
+
+}
+
 .discounts_card_2 {
   border: 1px solid black;
-  width: 322px;
-  height: 201px;
-  background: white;
+  border-radius: 10px;
+}
+
+.discounts_information {
+  padding: 4px 0;
 }
 
 .sakura_nav {
   width: 100%;
+  height: 481px;
 }
 
 .map_sakura {
-  padding: 50px 0;
+  padding: 64px 0;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
 .footer {
-  height: 380px;
   width: 100%;
   background: url("/images/salad (2).jpg");
+  background-size: cover;
 }
 
 .footer_main {
   width: 100%;
-  height: 380px;
+  height: 16rem;
   display: flex;
   align-items: center;
+  line-height: 1.24
 }
 
 .footer_info {
-  width: 33%;
-  height: 250px;
-
+  width: 40%;
 }
 
 .footer_h3 {
   font-size: 24px;
-  font-weight: 900;
+  font-weight: 500;
   text-align: left;
   color: #ffffff;
 }
 
 .footer_p {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 100;
   line-height: 1.25;
   text-align: left;
   color: #ffffff;
@@ -490,6 +522,8 @@ body {
 .footer_info_h3 {
   margin: 0;
   padding: 0;
+  font-weight: 100;
+  font-size: 16px;
 }
 
 //пицца
@@ -500,6 +534,9 @@ body {
 
 .menu_selection {
   width: 100%;
+  height: 296px;
+  padding: 20px 0;
+  line-height: 1;
 }
 
 .menu_selection_a {
@@ -509,7 +546,7 @@ body {
 .menu_selection_p {
   font-size: 24px;
   margin: 10px 0;
-  font-weight: 900;
+  font-weight: 300;
   text-align: left;
   color: #ffffff;
   text-shadow: 1px 3px 5px #000000;
@@ -521,18 +558,22 @@ body {
 }
 
 .menu_title_h2 {
-  font-size: 80px;
+  padding: 1rem 0 0;
+  font-size: 40px;
   font-weight: 900;
   font-style: italic;
   text-align: center;
   color: #000000;
+  margin-bottom: 0;
 }
 
 .menu_title_p {
   font-size: 24px;
-  font-weight: 900;
+  font-weight: 500;
   text-align: center;
   color: #000000;
+  margin-top: 33px;
+  margin-bottom: 8px;
 
 }
 
@@ -578,10 +619,9 @@ body {
 }
 
 .list {
-  margin: 20px;
-  width: 180px;
+  margin: 20px 0;
+  width: 22%;
   min-height: 200px;
-  border: solid 1px rgba(155, 155, 155, 0.2);
   border: 1px solid #FFFF00;
   position: relative;
   background: rgba(255, 255, 255, .6);
@@ -599,10 +639,11 @@ body {
 }
 
 .pizza_main_two {
-  width: 180px;
+  width: 79%;
   min-height: 200px;
   border: solid 1px rgba(155, 155, 155, 0.2);
   position: absolute;
+  padding: 0 20px;
   top: -1px;
   right: -1px;
   background: white;
@@ -616,7 +657,8 @@ body {
   font-style: italic;
   text-align: center;
   color: #000000;
-  margin: 15px 0 0 0;
+  margin: 15px auto 0;
+  width: 81%;
 }
 
 .pizza_p {
@@ -629,7 +671,10 @@ body {
 }
 
 .closed_pizza {
-  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 47.7rem;
 }
 
 .closed_pizza_menu {
@@ -639,17 +684,21 @@ body {
 }
 
 .closed_pizza_img {
-  width: 300px;
-  height: 330px;
-  margin: 0 20px 20px 20px;
+  width: 45%;
 }
 
 .closed_img {
-  height: 252px;
+  height: 188px;
 }
 
 .closed_pizza_price {
-  width: 600px;
+  width: 46%;
+
+}
+
+.closed_pizza_price_first {
+  width: 100%;
+  margin-top: 4rem;
 }
 
 .closed_p {
@@ -664,51 +713,62 @@ body {
   font-weight: 900;
   text-align: left;
   color: #000000;
+  margin: 0;
 }
 
 .closed_grey {
-  font-size: 16px;
+  font-size: 14px;
   text-align: left;
   color: #4a4a4a;
+  margin: 0
+}
+
+.closed_bg {
+  width: 100%;
+  height: 4rem;
+}
+
+.closed_bg:last-child {
+  height: 2rem;
 }
 
 .delivery {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  justify-content: space-between;
+  justify-content: center;
+  height: 10rem;
+  padding: 2rem 0 0;
 }
 
 .delivery_info {
-  width: 350px;
-}
-
-.delivery_h3 {
-  font-size: 28px;
-  font-weight: bold;
-  text-align: left;
-  color: #000000;
+  width: 36%;
+  display: flex;
 }
 
 .delivery_h4 {
-  margin-top: 20px;
   font-size: 19px;
   font-weight: bold;
-  line-height: 35px;
+  line-height: 2.2rem;
   text-align: left;
   color: #000000;
+  height: 47px;
+  margin: 0;
 }
 
 .delivery_p {
   font-size: 16px;
   text-align: left;
-  line-height: 30px;
+  line-height: 2rem;
   color: #4a4a4a;
+  margin: 0;
+  width: 50%;
 }
 
 .want_do {
   background: black;
-  padding: 50px 0;
+  padding: 8px 0;
+  height: 27rem;
 }
 
 .want_do_main {
@@ -719,18 +779,19 @@ body {
 }
 
 .want_h1 {
-  margin-top: 45px;
+  margin-top: 3rem;
   width: 100%;
-  font-size: 80px;
+  font-size: 40px;
   font-weight: bold;
   font-style: italic;
   text-align: center;
   color: #ffffff;
+  margin-bottom: 1rem;
 }
 
 .want_do_link {
-  margin-top: 20px;
-  width: 360px;
+  margin-top: 11px;
+  width: 28%;
 }
 
 .want_do_a {
@@ -813,7 +874,7 @@ body {
 
 .menu_rolli_main {
   width: 100%;
-  margin-top: 50px;
+  margin-bottom: 1.6rem;
 }
 
 .menu_rolli_main_h2 {
@@ -822,7 +883,7 @@ body {
   line-height: 26.0px;
   text-align: center;
   color: #000000;
-  padding: 50px;
+  padding: 1.5rem 0 3rem;
 }
 
 .rolli_main_img {
@@ -831,6 +892,7 @@ body {
 
 .menu_rolli_img {
   width: 100%;
+  height: 16rem;
 }
 
 .rolli_main_info {
@@ -843,6 +905,13 @@ body {
   //width: 180px;
   height: 200px;
   border: 1px solid #b2b2b2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.minirolli {
+  padding-top: 0.3rem;
 }
 
 .mini_rolli_info {
@@ -999,4 +1068,208 @@ body {
   font-weight: bold;
   text-align: left;
   color: gold;
+}
+
+.owl-prev, .owl-next {
+  width: 60px;
+  height: 60px;
+  font-size: 0;
+  color: transparent;
+  position: absolute;
+  top: 40%;
+}
+
+.owl-prev {
+  background-image: url("/images/prev.png");
+  background-size: cover;
+  left: -1rem;
+}
+
+.owl-next {
+  background-image: url("/images/next.png");
+  background-size: cover;
+  right: -1rem;
+}
+
+.google_map {
+  width: 780px;
+  height: 350px;
+}
+
+@media screen and(max-width: 987px) {
+  .wraper {
+    width: 987px;
+  }
+  .menu > h1 {
+    font-size: 20px;
+  }
+  .menu > ul li a {
+    font-size: 14px;
+  }
+  .info_h4 {
+    font-size: 15px;
+  }
+  .delivery_info {
+    width: 40%;
+  }
+}
+
+@media screen and(max-width: 768px) {
+  .menu img {
+    width: 2rem;
+    height: 2rem;
+  }
+  .menu img:last-child {
+    height: 1.8rem;
+  }
+  .info_h4 {
+    font-size: 13px;
+    width: 31%;
+  }
+  .info_h4:first-child {
+    width: 49%;
+  }
+  .info_h4:last-child {
+    width: 32%;
+  }
+  .header {
+    height: 32rem;
+  }
+  .logo > h1 {
+    font-size: 80px;
+  }
+  .menu {
+    height: 3rem;
+  }
+  .greeting > p {
+    padding-left: 0;
+    width: 44%;
+  }
+  .greeting > h2 {
+    font-size: 20px;
+  }
+  .advantage h2 {
+    font-size: 30px;
+  }
+  .adv_info_left > h3 {
+    font-size: 14px;
+  }
+  .adv_footer_h3 {
+    font-size: 14px;
+  }
+  .adv_info_left > p {
+    font-size: 12px;
+  }
+  .adv_footer_h3, .adv_p {
+    font-weight: 100;
+  }
+  .discounts_h1 {
+    font-size: 30px;
+  }
+  .discounts_h3, .discounts_h3_first {
+    font-size: 14px;
+  }
+  .discounts_h3_first {
+    height: 1rem;
+  }
+  .discounts_p, .discounts_p_first {
+    font-size: 13px;
+    padding-bottom: 3rem;
+    font-weight: 100;
+  }
+  .discounts_card_1, .discounts_card_2 {
+    width: 13rem;
+    height: 8rem;
+    top: 20px;
+  }
+  .discounts {
+    height: 47rem;
+  }
+  .discounts_img_main {
+    height: 9rem;
+  }
+  .sakura_nav {
+    height: 19rem;
+  }
+  .map_sakura {
+    height: 19rem;
+    padding: 0;
+  }
+  .google_map {
+    height: 17rem;
+    margin: auto;
+  }
+  .footer_p {
+    width: 8rem;
+  }
+  .footer_info {
+    height: 12rem;
+  }
+  .menu_selection_p {
+    font-size: 18px;
+  }
+  .menu_title_h2 {
+    font-size: 30px;
+  }
+  .menu_title_p {
+    font-size: 18px;
+    text-align: start;
+    padding-left: 5px;
+  }
+  .list {
+    width: 30%;
+  }
+  .closed_img {
+    height: 8rem;
+  }
+  .closed_black, .closed_p {
+    font-size: 12px;
+  }
+  .closed_grey {
+    font-size: 12px
+  }
+  .closed_bg {
+    height: 3rem;
+    padding: 4px 0;
+  }
+  .delivery_p {
+    font-size: 12px;
+  }
+  .delivery_h4 {
+    font-size: 14px;
+    line-height: 2rem;
+  }
+  .menu_rolli_main_h2 {
+    font-size: 20px;
+  }
+  .mini_p {
+    font-size: 13px;
+    padding: 0 3px;
+  }
+  .mini_h4, .mini_rolli_p {
+    font-size: 14px;
+  }
+  .mini_h6 {
+    font-size: 14px;
+  }
+  .assorted_h4 {
+    font-size: 20px;
+  }
+  .assorted_h4 {
+    font-size: 20px;
+  }
+  .menu ul {
+    top: 3rem;
+  }
+  .container__title {
+    font-size: 30px;
+  }
+  .hot_h4, .hot_p {
+    font-size: 18px;
+  }
+  .hot_img {
+    width: 9rem;
+    height: 8rem;
+    margin: auto
+  }
 }
