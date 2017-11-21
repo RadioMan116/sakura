@@ -17,7 +17,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   width: 100%;
-  height: 38rem;
+  padding-bottom: 4rem;
   background-size: cover;
   background: url("/images/background.jpg") no-repeat;
   background-size: cover;
@@ -90,13 +90,13 @@ body {
 }
 
 .menu img {
-  width: 3rem;
-  height: 3rem;
+  width: 17%;
+  height: 68%;
   padding: 0 5px;
 }
 
 .menu img:last-child {
-  height: 2.8rem;
+  height: 66%;
 }
 
 .menu ul {
@@ -163,10 +163,9 @@ body {
 
 .logo {
   width: 51%;
-  height: 8rem;
+  height: 18rem;
   display: flex;
   align-items: flex-end;
-  margin-top: 9rem;
 }
 
 .logo > h1 {
@@ -210,7 +209,7 @@ body {
 .advantage {
   background: #1a0610;
   width: 100%;
-  padding-bottom: 2rem;
+  padding: 4rem 0;
 }
 
 .advantage h2 {
@@ -221,21 +220,19 @@ body {
   text-align: center;
   color: #ffffff;
   margin: 0;
-  padding: 33px 0;
 
 }
 
 .adv_zag {
   width: 100%;
   display: flex;
-  height: 10rem;
   justify-content: center;
 }
 
 .adv_info {
   display: flex;
   width: 100%;
-  height: 178px;
+  padding: 2rem 0;
 }
 
 .adv_info_left {
@@ -261,7 +258,6 @@ body {
 
 .adv_info_right {
   width: 12%;
-  height: 100px;
   margin: 13px auto;
 }
 
@@ -277,7 +273,7 @@ body {
 }
 
 .adv_ft {
-  width: 24%;
+  width: 23%;
 }
 
 .adv_p {
@@ -296,7 +292,7 @@ body {
 
 .adv_footer {
   width: 100%;
-  height: 8rem;
+  padding: 2rem 0 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -309,6 +305,7 @@ body {
   text-align: left;
   color: white;
   margin: 0;
+  padding-top: 2rem;
 }
 
 .kitchen_menu {
@@ -318,7 +315,6 @@ body {
 
 .k_menu {
   width: 32%;
-  height: 288px;
   &__title {
     text-align: center;
   }
@@ -330,16 +326,16 @@ body {
   text-align: center;
   color: #4a4a4a;
   font-size: 40px;
-  padding-top: 26px;
+  margin: 0;
 }
 
 .kitchen_main {
-  padding-bottom: 3rem;
-
+  padding: 4rem 0;
 }
 
 .k_menu__title {
   font-weight: 500;
+  margin: 2rem 0;
 }
 
 .k_menu__img {
@@ -363,7 +359,7 @@ body {
 .discounts {
   background: black;
   width: 100%;
-  height: 61.4rem;
+  padding: 4rem 0;
 }
 
 .discounts_h1 {
@@ -372,7 +368,7 @@ body {
   font-style: italic;
   text-align: left;
   color: #ffffff;
-  margin-top: 3.4rem;
+  margin: 0;
 }
 
 .discounts > .container {
@@ -390,9 +386,8 @@ body {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
-  padding: 26px 0 0;
   line-height: 1;
-  height: 13rem;
+  padding: 2rem 0;
 }
 
 .discounts_info_two {
@@ -438,13 +433,13 @@ body {
 
 .discounts_img_main {
   position: relative;
-  height: 16rem;
+  padding-bottom: 3rem;
 }
 
 .discounts_card_1 {
   position: absolute;
-  left: 50px;
-  top: 50px;
+  left: 1rem;
+  top: 1rem;
   border-radius: 5px;
 
 }
@@ -462,7 +457,6 @@ body {
 
 .discounts_card_2 {
   border: 1px solid black;
-  border-radius: 10px;
 }
 
 .discounts_information {
@@ -485,11 +479,11 @@ body {
   width: 100%;
   background: url("/images/salad (2).jpg");
   background-size: cover;
+  padding: 4rem 0;
 }
 
 .footer_main {
   width: 100%;
-  height: 16rem;
   display: flex;
   align-items: center;
   line-height: 1.24
@@ -504,6 +498,7 @@ body {
   font-weight: 500;
   text-align: left;
   color: #ffffff;
+  margin: 0 0 1rem;
 }
 
 .footer_p {
@@ -533,8 +528,7 @@ body {
 
 .menu_selection {
   width: 100%;
-  height: 296px;
-  padding: 20px 0;
+  padding: 2rem 0 0;
   line-height: 1;
 }
 
@@ -544,7 +538,8 @@ body {
 
 .menu_selection_p {
   font-size: 24px;
-  margin: 10px 0;
+  margin: 0;
+  height: 2rem;
   font-weight: 300;
   text-align: left;
   color: #ffffff;
@@ -557,13 +552,13 @@ body {
 }
 
 .menu_title_h2 {
-  padding: 1rem 0 0;
+  padding: 4rem 0 2rem;
   font-size: 40px;
   font-weight: 900;
   font-style: italic;
   text-align: center;
   color: #000000;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .menu_title_p {
@@ -571,8 +566,8 @@ body {
   font-weight: 500;
   text-align: center;
   color: #000000;
-  margin-top: 33px;
-  margin-bottom: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
 
 }
 
@@ -616,7 +611,7 @@ body {
 }
 
 .list {
-  margin: 20px 0;
+  margin: 2rem 0 0;
   width: 22%;
   min-height: 200px;
   border: 1px solid #FFFF00;
@@ -672,7 +667,6 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  height: 47.7rem;
 }
 
 .closed_pizza_menu {
@@ -744,7 +738,7 @@ body {
   width: 100%;
   justify-content: center;
   height: 10rem;
-  padding: 2rem 0 0;
+  padding: 0;
 }
 
 .delivery_info {
@@ -773,8 +767,7 @@ body {
 
 .want_do {
   background: black;
-  padding: 8px 0;
-  height: 27rem;
+  padding: 4rem 0;
 }
 
 .want_do_main {
@@ -785,18 +778,16 @@ body {
 }
 
 .want_h1 {
-  margin-top: 3rem;
+  margin: 0;
   width: 100%;
   font-size: 40px;
   font-weight: bold;
   font-style: italic;
   text-align: center;
   color: #ffffff;
-  margin-bottom: 1rem;
 }
 
 .want_do_link {
-  margin-top: 11px;
   width: 28%;
 }
 
@@ -809,6 +800,8 @@ body {
   font-weight: 500;
   text-align: center;
   color: #ffffff;
+  margin: 0;
+  padding: 2rem 0;
 }
 
 .want_do_img {
@@ -817,9 +810,6 @@ body {
 
 .rolli_menu_h5 {
   margin: 0 auto;
-  width: 80%;
-  height: 30px;
-  padding-top: 20px;
   font-size: 12px;
   text-align: center;
   color: #4a4a4a;
@@ -839,11 +829,11 @@ body {
 }
 
 .rolli_main_two {
-  width: 79%;
+  width: 83%;
   min-height: 200px;
   border: 1px solid rgba(155, 155, 155, .2);
   position: absolute;
-  padding: 0 20px;
+  padding: 0 1rem;
   top: -1px;
   right: -1px;
   background: #fff;
@@ -858,8 +848,8 @@ body {
   font-style: italic;
   text-align: center;
   color: #000000;
-  margin: 12px auto 0 auto;
-  height: 39px;
+  margin: 1rem 0;
+  height: 1rem;
 }
 
 .rolli_p {
@@ -879,7 +869,6 @@ body {
 
 .menu_rolli_main {
   width: 100%;
-  margin-bottom: 1.6rem;
 }
 
 .menu_rolli_main_h2 {
@@ -888,7 +877,7 @@ body {
   line-height: 26.0px;
   text-align: center;
   color: #000000;
-  padding: 1.5rem 0 3rem;
+  margin: 4rem;
 }
 
 .rolli_main_img {
@@ -897,7 +886,7 @@ body {
 
 .menu_rolli_img {
   width: 100%;
-  height: 16rem;
+  height: 12rem;
 }
 
 .rolli_main_info {
@@ -916,7 +905,6 @@ body {
 }
 
 .minirolli {
-  padding-top: 0.3rem;
 }
 
 .mini_rolli_info {
@@ -931,6 +919,7 @@ body {
 
 .mini_img {
   max-width: 100%;
+  height: 8rem;
 }
 
 .mini_p {
@@ -938,7 +927,7 @@ body {
   font-weight: bold;
   text-align: left;
   color: #000000;
-  margin-bottom: 3px;
+  margin: 1rem 0;
 }
 
 .mini_h4 {
@@ -973,11 +962,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  height: 39rem;
 }
 
 .assorted_info {
   width: 45%;
-  height: 140px;
 }
 
 .assorted_h4 {
@@ -986,7 +975,7 @@ body {
   line-height: 26.0px;
   text-align: left;
   color: #000000;
-  margin-bottom: 10px;
+  margin: 0 0 1rem;
 }
 
 .assorted_p {
@@ -995,6 +984,7 @@ body {
   line-height: 20.0px;
   text-align: left;
   color: #000000;
+  margin: 1rem 0 2rem;
 
 }
 
@@ -1121,11 +1111,8 @@ body {
 
 @media screen and(max-width: 768px) {
   .menu img {
-    width: 2rem;
-    height: 2rem;
   }
   .menu img:last-child {
-    height: 1.8rem;
   }
   .info_h4 {
     font-size: 12px;
@@ -1146,7 +1133,7 @@ body {
     width: 32%;
   }
   .header {
-    height: 32rem;
+    height: auto;
   }
   .logo > h1 {
     font-size: 80px;
@@ -1184,19 +1171,22 @@ body {
   }
   .discounts_h3_first {
     height: 1rem;
+    padding-top: 2rem;
+  }
+  .discounts_info {
+    padding: 0;
   }
   .discounts_p, .discounts_p_first {
     font-size: 13px;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
     font-weight: 100;
   }
   .discounts_card_1, .discounts_card_2 {
     width: 13rem;
     height: 8rem;
-    top: 20px;
   }
   .discounts {
-    height: 47rem;
+
   }
   .discounts_img_main {
     height: 9rem;
@@ -1216,7 +1206,7 @@ body {
     width: 8rem;
   }
   .footer_info {
-    height: 12rem;
+
   }
   .menu_selection_p {
     font-size: 18px;
@@ -1226,7 +1216,9 @@ body {
   }
   .menu_title_p {
     font-size: 18px;
-    padding-left: 5px;
+  }
+  .menu_assortment {
+    padding-bottom: 2rem;
   }
   .list {
     width: 30%;
@@ -1302,7 +1294,7 @@ body {
 
 @media screen and(max-width: 625px) {
   .menu img {
-    width: 1.5rem;
+    width: 13%;
   }
   .info_h4 {
     font-size: 11px;
@@ -1315,6 +1307,7 @@ body {
   }
   .info {
     width: 57%;
+    align-items: flex-start;
   }
   .menu {
     width: 30%;
@@ -1363,16 +1356,25 @@ body {
     width: 81%;
     padding: 0 15px;
   }
+  .discounts_h3_first {
+    height: 1rem;
+    padding-top: 2rem;
+  }
+
+  .discounts_info {
+    padding: 0;
+  }
+  .footer_h3 {
+    margin-top: 0;
+  }
+  .want_do {
+  }
 }
 
 @media screen and(max-width: 425px) {
   .menu img {
-    width: 2rem;
-    height: 2rem;
     padding: 0 10px 0 0;
-  }
-  .menu img:last-child {
-    height: 1.8rem;
+    height: 60%;
   }
   .info_h4, .info_h4:first-child, .info_h4:last-child {
     width: 87%;
@@ -1392,7 +1394,7 @@ body {
     padding-right: 10px;
   }
   .menu ul {
-    top: 4rem;
+    top: 3.5rem;
   }
   .logo {
     height: 5rem;
@@ -1417,11 +1419,10 @@ body {
   }
   .advantage h2 {
     font-size: 20px;
-    padding: 1rem 0;
+    padding: 2rem 0;
   }
   .adv_info_right {
     width: 30%;
-    height: 7rem;
     margin: auto;
   }
   .adv_info_left {
@@ -1435,16 +1436,20 @@ body {
   .adv_footer_h3, .adv_info_left > h3 {
     font-size: 12px;
   }
+  .adv_footer_h3 {
+    padding-top: 0;
+  }
+  .adv_footer {
+    padding: 2rem 0;
+  }
   .adv_info {
-    height: 10rem;
   }
   .k_menu_main {
     justify-content: center;
   }
   .k_menu {
     width: 90%;
-    height: 16.3rem;
-    padding: 1rem 0 0
+    padding: 2rem 0 0
   }
   .container__title {
     font-size: 20px;
@@ -1456,10 +1461,15 @@ body {
   }
   .discounts_h1 {
     font-size: 20px;
-    margin-top: 2.4rem;
   }
   .discounts_h3, .discounts_h3_first {
     font-size: 12px;
+  }
+  .discounts {
+    padding: 2rem 0;
+  }
+  .discounts_h3_first {
+    padding-top: 1rem;
   }
   .discounts_p, .discounts_p_first {
     font-size: 11px;
@@ -1472,19 +1482,18 @@ body {
     width: 37%;
   }
   .discounts_info {
-    height: 8rem;
+    padding: 1rem 0;
   }
   .discounts_img_main {
-    height: 7rem;
-    margin-top: 1rem;
+    margin-top: 0;
+    padding-bottom: 0;
     display: flex;
     justify-content: center;
   }
   .discounts {
-    height: 36rem;
   }
   .discounts_main {
-    height: 31rem;
+
   }
   .discounts_card_1, .discounts_card_2 {
     width: 11rem;
@@ -1496,26 +1505,34 @@ body {
   .google_map {
     height: 8rem;
   }
-  .footer_main {
-    height: 10rem;
+  .footer {
+    padding: 1rem 0;
   }
   .footer_h3 {
     font-size: 20px;
   }
   .header {
-    height: 24rem;
+    padding-bottom: 2rem;
+    height: auto;
   }
   .logo {
-    margin-top: 4rem;
+    margin-top: 0;
+    height: 11rem;
+  }
+  .menu > ul li a {
+    font-size: 10px;
   }
   .footer_info_h3, .footer_p {
     font-size: 11px;
   }
   .footer_info_h3 {
-    padding: 2px 0;
+    padding: 0;
   }
   .menu_selection {
-    height: 8rem;
+    height: auto;
+  }
+  .menu img:last-child {
+    height: 55%;
   }
   .menu_selection_p {
     font-size: 12px;
@@ -1536,14 +1553,27 @@ body {
     display: block;
   }
   .closed_pizza {
-    height: 72rem;
+
+  }
+  .menu_assortment {
+    padding-bottom: 2rem;
   }
   .menu_title_p {
-    padding-left: 0;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+  }
+  .closed_pizza_price_first {
+    margin-top: 2rem;
+  }
+  .closed_bg {
+    height: auto;
+    padding: 10px 0;
   }
   .closed_pizza_menu {
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 2rem;
   }
   .closed_pizza_img {
     width: 95%;
@@ -1568,15 +1598,27 @@ body {
   }
   .closed_p_2 {
     font-size: 12px;
+    margin-bottom: 0;
+  }
+  .menu_title_h2 {
+    padding: 2rem 0 1rem;
+    font-size: 20px;
+  }
+  .delivery {
+    height: auto;
+    padding-bottom: 2rem;
   }
   .want_do {
-    height: 54rem;
+    padding: 2rem 0;
+  }
+  .want_h1 {
+    font-size: 20px;
   }
   .want_do_main {
     justify-content: center;
   }
   .want_do_link {
-    margin-top: 11px;
+    margin-top: 0;
     width: 70%;
   }
   .footer_p {
@@ -1585,10 +1627,10 @@ body {
   }
   .want_do_h3 {
     font-size: 20px;
+    padding: 2rem 0 1rem;
   }
   .footer_info {
     width: 45%;
-    height: 9rem;
   }
   .rolli_menu_p {
     font-size: 11px;
@@ -1633,4 +1675,209 @@ body {
   .hot_p {
     margin: 0 5px;
   }
+}
+
+@media screen and(max-width: 320px) {
+  .menu img:last-child {
+    height: 47%;
+  }
+  .menu ul {
+    top: 3.4rem;
+  }
+  .menu > ul li a {
+    font-size: 8px;
+  }
+  .logo {
+    height: 10rem;
+    margin-top: 0;
+  }
+  .advantage h2 {
+    font-size: 20px;
+    padding: 0;
+  }
+  .adv_zag {
+    height: auto;
+  }
+  .adv_info_right {
+    height: auto;
+  }
+  .adv_ft {
+    height: auto;
+  }
+  .adv_footer {
+    padding: 0;
+  }
+  .kitchen_main {
+    padding: 2rem 0;
+  }
+  .discounts {
+    height: auto;
+    padding: 2rem 0;
+  }
+  .discounts_h1 {
+    margin-top: 0;
+  }
+  .discounts_main, .discounts_info {
+    height: auto;
+  }
+  .discounts_img_main {
+    padding-bottom: 3rem;
+    height: auto;
+  }
+  .footer {
+    padding: 1rem 0;
+  }
+  .adv_footer_h3 {
+    padding-top: 1rem;
+  }
+  .adv_info {
+    height: auto;
+    padding: 1rem 0;
+  }
+  .advantage {
+    padding: 2rem 0;
+  }
+  .menu img {
+    height: 56%;
+  }
+  .menu img, .menu > h1 {
+    padding: 0 5px 0 0;
+  }
+  .menu > h1 {
+    font-size: 15px;
+  }
+  .info_h4, .info_h4:first-child, .info_h4:last-child {
+    width: 90%;
+    padding: 3px 11px;
+    font-size: 8px;
+  }
+  .menu_title_h2 {
+    font-size: 20px;
+  }
+  .menu_title_p {
+    font-size: 15px;
+  }
+  .pizza_h4, .pizza_p {
+    font-size: 11px;
+  }
+  .pizza_main_two {
+    height: 100%;
+    width: 92%;
+    padding: 0 5px;
+  }
+  .pizza_menu_p {
+    height: 6rem;
+    font-size: 14px;
+
+  }
+  .closed_pizza {
+    height: 86rem;
+  }
+  .delivery_info:first-child {
+    width: 90%;
+  }
+  .delivery_p:first-child {
+    width: 100%;
+  }
+  .delivery_info {
+    width: 90%;
+    flex-wrap: wrap;
+  }
+  .delivery_p:first-child, .delivery_p {
+    width: 100%;
+    text-align: center;
+  }
+  .delivery {
+    height: 15rem;
+  }
+  .delivery_h4 {
+    width: 100%;
+    text-align: center;
+  }
+  .footer_info {
+    width: 60%;
+  }
+  .footer_main {
+    height: auto;
+  }
+  .footer_p {
+    line-height: 0.8;
+  }
+  .footer_info_h3, .footer_p {
+    font-size: 9px;
+  }
+  .adv_info_right > img, .burger_img, .discounts_img > img, .hot_img, .mini_img, .pizza_img, .rolli_img, .rolli_main_img {
+    max-width: 90%;
+  }
+  .rolliinfo {
+    margin: 0;
+    height: 10rem;
+  }
+  .owl-next, .owl-prev {
+    width: 2rem;
+    height: 2rem;
+  }
+  .owl-next {
+    right: -2rem;
+  }
+  .owl-prev {
+    left: -2rem;
+  }
+  .rolli_menu_p {
+    padding-top: 0;
+    height: 5rem;
+  }
+  .rolli_h4 {
+    margin: 0 auto;
+    padding-top: 1rem;
+    height: 2rem;
+  }
+  .mini_rolli_info {
+    flex-wrap: wrap;
+  }
+  .mini_main_rolli {
+    width: 50%;
+    height: 20rem;
+  }
+  .assorted_info {
+    width: 100%;
+  }
+  .assorted_info:nth-child(even), .assorted_info {
+    height: auto;
+  }
+  .rolli_main_two {
+    height: 100%;
+  }
+  .rolli_menu_h5 {
+  }
+  .adv_footer_h3, .adv_info_left > h3 {
+    font-size: 10px;
+  }
+  .adv_info_left > p {
+    font-size: 9px;
+  }
+  .discounts_h3, .discounts_h3_first {
+    font-size: 10px;
+  }
+  .discounts_p, .discounts_p_first {
+    font-size: 9px;
+  }
+  .discounts_h3_first {
+    padding-top: 1rem;
+  }
+  .discounts_card_1 {
+    left: 2rem;
+    top: 1rem;
+
+  }
+}
+
+@media screen and(max-width: 900px) {
+  .info {
+    width: 73%;
+  }
+}
+
+.owl-carousel {
+  margin: 4rem 0;
 }
