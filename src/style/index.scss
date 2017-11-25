@@ -8,35 +8,33 @@ body {
   margin: 0;
   padding: 0;
   font-family: Roboto-BoldItalic, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   align-items: center;
+  background: url("/images/bg2.jpg");
 }
 
 .header {
+  //min-height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   width: 100%;
   padding-bottom: 4rem;
   background-size: cover;
-  background: url("/images/background.jpg") no-repeat;
+  background: url("/images/background.jpg") 100%;
   background-size: cover;
-  &__burger {
-    background: url("/images/burger.jpg") no-repeat center;
-    background-size: cover;
-  }
 
   &__chef {
-    background: url("/images/chef.jpg") no-repeat center;
+    background: url("/images/chef.jpg");
     background-size: cover;
   }
 
   &__pizza {
-    background: url("/images/pizza.jpg") no-repeat center;
+    background: url("/images/pizza.jpg");
     background-size: cover;
   }
   &__hotdishes {
-    background: url("/images/hoteat.jpg") no-repeat center;
+    background: url("/images/hoteat.jpg");
     background-size: cover;
   }
 }
@@ -65,45 +63,49 @@ body {
 }
 
 .info {
-  width: 72%;
+  width: 75%;
   display: flex;
   flex-wrap: nowrap;
-  align-items: center;
+  //align-items: center;
+}
+
+.info * {
+  margin: auto 1%;
 }
 
 .menu_header {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  //justify-content: space-between;
+  margin: auto;
 }
 
 .menu * {
   margin: 0;
-  padding: 0;
+  padding: 0 2%;
 }
 
 .menu {
   display: flex;
-  width: 28%;
   position: relative;
   align-items: center;
+  width: 16%;
 }
 
-.menu img {
-  width: 17%;
-  height: 68%;
-  padding: 0 3%;
+.info img {
+  width: 100%;
 }
 
-.menu img:last-child {
-  height: 66%;
+.info a {
+  width: 4%;
+  min-width: 1rem;
 }
 
 .menu ul {
   list-style: none;
   display: none;
   position: absolute;
-  top: 4rem;
+  top: 3.5rem;
 }
 
 .menu ul li {
@@ -113,8 +115,8 @@ body {
 .menu > ul li a {
   display: block;
   background-color: rgba(178, 178, 178, 0.7);
-  padding: 12px 13px;
-  font-size: 16px;
+  padding: 10% 20%;
+  font-size: 100%;
   font-weight: 500;
   text-align: left;
   color: #ffffff;
@@ -132,7 +134,7 @@ body {
 
 .menu > h1 {
   height: 50px;
-  font-size: 24px;
+  font-size: 150%;
   font-weight: 500;
   text-align: left;
   color: #000000;
@@ -141,19 +143,15 @@ body {
 }
 
 .info_h4 {
-  font-size: 16px;
+  font-size: 100%;
   text-align: left;
   color: #000000;
-  width: 38%;
-  padding: 0 1%;
-}
+  white-space: nowrap;
+  margin: auto 1% auto 0;
 
-.info_h4:first-child {
-  width: 34%;
 }
 
 .info_h4:last-child {
-  width: 23%;
   text-decoration: underline;
 }
 
@@ -169,7 +167,7 @@ body {
 }
 
 .logo > h1 {
-  font-size: 120px;
+  font-size: 750%;
   font-weight: bold;
   font-style: italic;
   color: #ffffff;
@@ -187,7 +185,7 @@ body {
 
 .greeting > h2 {
   width: 44%;
-  font-size: 24px;
+  font-size: 150%;
   font-weight: normal;
   text-align: center;
   color: #ffffff;
@@ -198,8 +196,7 @@ body {
 .greeting > p {
   width: 34%;
   padding-left: 5%;
-  height: 100px;
-  font-size: 14px;
+  font-size: 100%;
   line-height: 1.43;
   text-align: center;
   color: #ffffff;
@@ -213,7 +210,7 @@ body {
 }
 
 .advantage h2 {
-  font-size: 40px;
+  font-size: 250%;
   font-weight: 900;
   font-style: italic;
   line-height: 1.35;
@@ -243,14 +240,14 @@ body {
 }
 
 .adv_info_left > h3 {
-  font-size: 20px;
+  font-size: 125%;
   font-weight: 500;
   line-height: 40.0px;
   margin: 0;
 }
 
 .adv_info_left > p {
-  font-size: 16px;
+  font-size: 100%;
   line-height: 20px;
   font-weight: 500;
   margin: 0;
@@ -277,7 +274,7 @@ body {
 }
 
 .adv_p {
-  font-size: 16px;
+  font-size: 100%;
   line-height: 20px;
   font-weight: 500;
   margin: 0;
@@ -299,7 +296,7 @@ body {
 }
 
 .adv_footer_h3 {
-  font-size: 20px;
+  font-size: 125%;
   font-weight: 500;
   line-height: 1.6;
   text-align: left;
@@ -309,7 +306,7 @@ body {
 
 .kitchen_menu {
   width: 100%;
-  background: url("/images/bg2.jpg");
+  //background: url("/images/bg2.jpg");
 }
 
 .k_menu {
@@ -324,7 +321,7 @@ body {
   font-style: italic;
   text-align: center;
   color: #4a4a4a;
-  font-size: 40px;
+  font-size: 250%;
   margin: 0;
 }
 
@@ -351,7 +348,7 @@ body {
 
 .k_menu > a {
   text-decoration: none;
-  font-size: 24px;
+  font-size: 150%;
   color: #000000;
 }
 
@@ -362,7 +359,7 @@ body {
 }
 
 .discounts_h1 {
-  font-size: 40px;
+  font-size: 250%;
   font-weight: 900;
   font-style: italic;
   text-align: left;
@@ -404,19 +401,20 @@ body {
 }
 
 .discounts_p, .discounts_p_first {
-  font-size: 16px;
+  font-size: 100%;
   text-align: left;
   padding-bottom: 29px;
+  line-height: 30px;
 }
 
 .discounts_h3 {
-  font-size: 20px;
+  font-size: 125%;
   text-align: left;
 
 }
 
 .discounts_h3_first {
-  font-size: 20px;
+  font-size: 125%;
   text-align: left;
 
 }
@@ -492,7 +490,7 @@ body {
 }
 
 .footer_h3 {
-  font-size: 24px;
+  font-size: 150%;
   font-weight: 500;
   text-align: left;
   color: #ffffff;
@@ -504,7 +502,7 @@ body {
   text-align: left;
   margin: 0;
   color: #fff;
-  font-size: 16px;
+  font-size: 100%;
   font-weight: 100;
 }
 
@@ -516,13 +514,13 @@ body {
   margin: 0;
   padding: 0;
   font-weight: 100;
-  font-size: 16px;
+  font-size: 100%;
 }
 
 //пицца
 .menu_main {
   width: 100%;
-  background: url("/images/bg2.jpg");
+  //background: url("/images/bg2.jpg");
 }
 
 .menu_selection {
@@ -536,9 +534,10 @@ body {
 }
 
 .menu_selection_p {
-  font-size: 24px;
+  font-size: 160%;
   margin: 0;
-  height: 2rem;
+  //height: 2rem;
+  padding: 1% 0;
   font-weight: 300;
   text-align: left;
   color: #ffffff;
@@ -552,7 +551,7 @@ body {
 
 .menu_title_h2 {
   padding: 4rem 0 2rem;
-  font-size: 40px;
+  font-size: 250%;
   font-weight: 900;
   font-style: italic;
   text-align: center;
@@ -561,7 +560,7 @@ body {
 }
 
 .menu_title_p {
-  font-size: 24px;
+  font-size: 150%;
   font-weight: 500;
   text-align: center;
   color: #000000;
@@ -582,7 +581,7 @@ body {
   width: 100%;
   height: 30px;
   padding-top: 20px;
-  font-size: 12px;
+  font-size: 100%;
   text-align: center;
   color: #4a4a4a;
 }
@@ -592,7 +591,7 @@ body {
   width: 100%;
   height: 70px;
   padding-top: 10px;
-  font-size: 14px;
+  font-size: 100%;
   font-weight: 900;
   font-style: italic;
   text-align: center;
@@ -645,18 +644,18 @@ body {
 .pizza_h4 {
   display: flex;
   justify-content: center;
-  font-size: 16px;
+  font-size: 100%;
   font-weight: 900;
   font-style: italic;
   text-align: center;
   color: #000000;
-  margin: 15px auto 0;
+  margin: 1rem auto 0;
   width: 81%;
 }
 
 .pizza_p {
   margin: 0 auto;
-  font-size: 16px;
+  font-size: 100%;
   font-weight: 900;
   font-style: italic;
   text-align: center;
@@ -694,14 +693,14 @@ body {
 }
 
 .closed_p {
-  font-size: 16px;
+  font-size: 100%;
   font-weight: 900;
   text-align: left;
   color: #000000;
 }
 
 .closed_p_2 {
-  font-size: 16px;
+  font-size: 100%;
   font-weight: 900;
   text-align: left;
   color: #000000;
@@ -709,7 +708,7 @@ body {
 }
 
 .closed_black {
-  font-size: 16px;
+  font-size: 100%;
   font-weight: 900;
   text-align: left;
   color: #000000;
@@ -717,7 +716,7 @@ body {
 }
 
 .closed_grey {
-  font-size: 14px;
+  font-size: 87.5%;
   text-align: left;
   color: #4a4a4a;
   margin: 0
@@ -725,44 +724,44 @@ body {
 
 .closed_bg {
   width: 100%;
-  height: 4rem;
+  padding: 1rem 0;
 }
 
-.closed_bg:last-child {
-  height: 2rem;
-}
+
 
 .delivery {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   justify-content: center;
-  height: 10rem;
-  padding: 0;
+  //height: 10rem;
+  padding-bottom: 13%;
 }
 
 .delivery_info {
-  width: 36%;
+  //width: 36%;
   display: flex;
 }
 
 .delivery_h4 {
-  font-size: 19px;
+  font-size: 118.75%;
   font-weight: bold;
   line-height: 2.2rem;
   text-align: left;
   color: #000000;
-  height: 47px;
   margin: 0;
+  white-space: nowrap;
+  padding-right: 1rem;
 }
 
 .delivery_p {
-  font-size: 16px;
+  font-size: 100%;
   text-align: left;
   line-height: 2rem;
   color: #4a4a4a;
   margin: 0;
-  width: 50%;
+  padding: 0 1em;
+  white-space: nowrap;
 }
 
 .want_do {
@@ -780,7 +779,7 @@ body {
 .want_h1 {
   margin: 0;
   width: 100%;
-  font-size: 40px;
+  font-size: 250%;
   font-weight: bold;
   font-style: italic;
   text-align: center;
@@ -796,7 +795,7 @@ body {
 }
 
 .want_do_h3 {
-  font-size: 24px;
+  font-size: 150%;
   font-weight: 500;
   text-align: center;
   color: #ffffff;
@@ -810,7 +809,7 @@ body {
 
 .rolli_menu_h5 {
   margin: 0 auto;
-  font-size: 12px;
+  font-size: 75%;
   text-align: center;
   color: #4a4a4a;
   padding: 14% 0;
@@ -820,7 +819,7 @@ body {
   margin: 0 auto;
   width: 90%;
   height: 80px;
-  font-size: 14px;
+  font-size: 87.5%;
   font-weight: 900;
   font-style: italic;
   text-align: center;
@@ -843,7 +842,7 @@ body {
 .rolli_h4 {
   display: flex;
   justify-content: center;
-  font-size: 16px;
+  font-size: 100%;
   font-weight: 900;
   font-style: italic;
   text-align: center;
@@ -854,7 +853,7 @@ body {
 
 .rolli_p {
   margin: 0 5px;
-  font-size: 16px;
+  font-size: 100%;
   font-weight: 900;
   font-style: italic;
   text-align: center;
@@ -872,7 +871,7 @@ body {
 }
 
 .menu_rolli_main_h2 {
-  font-size: 24px;
+  font-size: 150%;
   font-weight: bold;
   line-height: 26.0px;
   text-align: center;
@@ -922,7 +921,7 @@ body {
 }
 
 .mini_p {
-  font-size: 16px;
+  font-size: 100%;
   font-weight: bold;
   text-align: left;
   color: #000000;
@@ -931,7 +930,7 @@ body {
 
 .mini_h4 {
   display: flex;
-  font-size: 16px;
+  font-size: 100%;
   font-weight: 900;
   font-style: italic;
   text-align: left;
@@ -941,7 +940,7 @@ body {
 
 .mini_rolli_p {
   margin: 0 5px 0 0;
-  font-size: 16px;
+  font-size: 100%;
   font-weight: 900;
   font-style: italic;
   text-align: left;
@@ -949,7 +948,7 @@ body {
 }
 
 .mini_h6 {
-  font-size: 16px;
+  font-size: 100%;
   font-weight: 500;
   font-style: italic;
   text-align: left;
@@ -969,7 +968,7 @@ body {
 }
 
 .assorted_h4 {
-  font-size: 24px;
+  font-size: 150%;
   font-weight: bold;
   line-height: 26.0px;
   text-align: left;
@@ -978,7 +977,7 @@ body {
 }
 
 .assorted_p {
-  font-size: 16px;
+  font-size: 100%;
   font-weight: 500;
   line-height: 20.0px;
   text-align: left;
@@ -1009,7 +1008,7 @@ body {
 }
 
 .burger_h4 {
-  font-size: 16px;
+  font-size: 100%;
   font-weight: bold;
   line-height: 20.0px;
   text-align: left;
@@ -1018,13 +1017,14 @@ body {
 }
 
 .burger_h3 {
-  font-size: 16px;
+  font-size: 100%;
   line-height: 20.0px;
   text-align: left;
   color: #747474;
   margin: 0;
 
 }
+
 .hot_title {
   width: 100%;
   text-align: center;
@@ -1035,9 +1035,11 @@ body {
   display: flex;
   justify-content: center;
 }
+
 .menu a {
   width: 100%;
 }
+
 .menu a img {
   max-width: 100%;
 }
@@ -1047,9 +1049,9 @@ body {
   height: 10%;
   margin: auto;
 }
+
 .hot_menu {
   width: 59%;
-  height: 200px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -1057,17 +1059,18 @@ body {
 }
 
 .hot_h4 {
-  font-size: 24px;
+  font-size: 150%;
   font-weight: bold;
   text-align: left;
   color: #000000;
   margin: 0;
   display: flex;
+  padding-bottom: 3%;
 }
 
 .hot_p {
   margin: 0 5px 0 0;
-  font-size: 24px;
+  font-size: 150%;
   font-weight: bold;
   text-align: left;
   color: gold;
@@ -1098,90 +1101,42 @@ body {
   width: 780px;
   height: 350px;
 }
-@media screen and(max-width: 1004px) {
-  .info_h4 {
-    font-size: 15px;
 
-  }
-  }
-
-
-@media screen and(max-width: 987px) {
-  .wraper {
-    width: 987px;
-  }
-  .menu > h1 {
-    font-size: 20px;
-  }
-  .menu > ul li a {
-    font-size: 14px;
-  }
-  .info_h4 {
-    font-size: 15px;
-  }
-  .delivery_info {
-    width: 40%;
-  }
+.info_a {
+  display: none;
 }
 
+@media screen and(max-width: 1000px) {
+  body {
+    font-size: 95%;
+  }
+}
 @media screen and(max-width: 900px) {
-  .info {
-    width: 73%;
+  body {
+    font-size: 90%;
   }
-}
-@media screen and (max-width: 892px) {
-  .info_h4 {
-    font-size: 14px;
-  }
+
 }
 
-@media screen and(max-width: 829px) {
-  .info_h4 {
-    font-size: 13px;
-  }
-}
-.owl-carousel {
-  //margin: 4rem 0;}
-}
-@media screen and(max-width: 814px) {
-  .mini_p, .rolli_h4, .rolli_p {
-    font-size: 15px;
-  }
-}
-@media screen and(max-width: 794px) {
-  .info_h4 {
-    font-size: 13px;
+@media screen and(max-width: 800px) {
+  body {
+    font-size: 80%;
   }
 }
 
 @media screen and(max-width: 768px) {
-  .menu img {
-  }
-  .menu img:last-child {
-  }
-  .info_h4 {
-    font-size: 12px;
-    width: 55%;
-  }
-  .info_h4:first-child {
-    width: 49%;
-  }
   .info {
-    width: 70%;
+    width: 86%;
   }
   .menu_header {
     justify-content: flex-start;
     height: 4rem;
     align-items: center;
   }
-  .info_h4:last-child {
-    width: 34%;
-  }
   .header {
     height: auto;
   }
   .logo > h1 {
-    font-size: 80px;
   }
   .menu {
     height: 3rem;
@@ -1191,29 +1146,28 @@ body {
     width: 44%;
   }
   .greeting > h2 {
-    font-size: 20px;
+
   }
   .advantage h2 {
-    font-size: 30px;
+
   }
   .adv_info_left > h3 {
-    font-size: 14px;
+
   }
   .adv_footer_h3 {
-    font-size: 14px;
+
     padding-top: 0;
   }
   .adv_info_left > p {
-    font-size: 12px;
   }
   .adv_footer_h3, .adv_p {
     font-weight: 100;
   }
   .discounts_h1 {
-    font-size: 30px;
+
   }
   .discounts_h3, .discounts_h3_first {
-    font-size: 14px;
+
   }
   .discounts_h3_first {
     height: 1rem;
@@ -1223,7 +1177,6 @@ body {
     padding: 0;
   }
   .discounts_p, .discounts_p_first {
-    font-size: 13px;
     padding-bottom: 2rem;
     font-weight: 100;
   }
@@ -1255,13 +1208,13 @@ body {
 
   }
   .menu_selection_p {
-    font-size: 18px;
+    //font-size: 112.5%;
   }
   .menu_title_h2 {
-    font-size: 30px;
+    //font-size: 30px;
   }
   .menu_title_p {
-    font-size: 18px;
+    //font-size: 112.5%;
   }
   .menu_assortment {
     padding-bottom: 2rem;
@@ -1273,50 +1226,49 @@ body {
     height: 8rem;
   }
   .closed_black, .closed_p {
-    font-size: 12px;
+    //font-size: 75%;
   }
   .closed_grey {
-    font-size: 12px
+    //font-size: 75%
   }
   .closed_bg {
-    height: 3rem;
-    padding: 4px 0;
+    padding: 1rem 0;
   }
   .delivery_p {
-    font-size: 12px;
+    //font-size: 75%;
   }
   .delivery_h4 {
-    font-size: 14px;
+    //font-size: 87.5%;
     line-height: 2rem;
   }
   .menu_rolli_main_h2 {
-    font-size: 20px;
+    //font-size: 125%;
   }
   .mini_p {
-    font-size: 13px;
+    //font-size: 13px;
     padding: 0 3px;
   }
   .mini_h4, .mini_rolli_p {
-    font-size: 14px;
+    //font-size: 87.5%;
 
   }
   .mini_h6 {
-    font-size: 14px;
+    //font-size: 87.5%;
   }
   .assorted_h4 {
-    font-size: 20px;
+    //font-size: 125%;
   }
   .assorted_h4 {
-    font-size: 20px;
+    //font-size: 125%;
   }
   .menu ul {
     top: 3.5rem;
   }
   .container__title {
-    font-size: 30px;
+    //font-size: 30px;
   }
   .hot_h4, .hot_p {
-    font-size: 18px;
+    //font-size: 112.5%;
     font-weight: 500;
   }
   .hot_img {
@@ -1328,40 +1280,34 @@ body {
   .owl-prev {
     left: -3rem;
   }
-  .assorted_info:nth-child(even) {
-    height: 9rem;
-  }
   .rolli_menu_p {
     width: 90%;
-    font-size: 13px;
+    //font-size: 13px;
+  }
+}
+
+@media screen and(max-width: 700px) {
+  body {
+    font-size: 70%;
+  }
+}
+
+@media screen and(max-width: 650px) {
+  body {
+    //font-size: 81.25%;
   }
 }
 
 @media screen and(max-width: 625px) {
-  .menu img {
-    width: 13%;
 
-  }
-  .info_h4 {
-    font-size: 11px;
-  }
-  .delivery_info {
-    width: 45%;
-  }
-  .delivery_info:first-child {
-    width: 37%;
-  }
   .info {
     align-items: flex-start;
   }
   .menu {
-    width: 30%;
-  }
-  .info_h4, .info_h4:first-child, .info_h4:last-child {
-    width: 42%;
+    width: 16%;
   }
   .mini_p, .rolli_h4, .rolli_p {
-    font-size: 13px;
+    //font-size: 13px;
   }
   .mini_img {
     height: 5rem;
@@ -1370,7 +1316,7 @@ body {
     height: 3.8rem;
   }
   .mini_h4, .mini_h6, .mini_rolli_p {
-    font-size: 12px;
+    //font-size: 75%;
   }
   .menu ul {
     top: 3.5rem;
@@ -1386,7 +1332,7 @@ body {
     width: 8rem;
   }
   .pizza_h4, .pizza_p {
-    font-size: 13px;
+    //font-size: 13px;
   }
   .pizza_h4 {
     margin: 15px auto;
@@ -1395,11 +1341,10 @@ body {
     margin-top: 4.6rem;
   }
   .closed_bg {
-    height: 4rem;
   }
   .pizza_main_two {
     width: 81%;
-    padding: 0 15px;
+    padding: 3% 10%;
   }
   .discounts_h3_first {
     height: 1rem;
@@ -1416,22 +1361,53 @@ body {
   }
 }
 
+@media screen and(max-width: 600px) {
+  body {
+    font-size: 60%;
+  }
+}
+
+@media screen and(max-width: 550px) {
+  body {
+    font-size: 58.75%;
+  }
+}
+
+@media screen and(max-width: 500px) {
+  body {
+    font-size: 52.5%;
+  }
+  .info_h4 {
+
+    margin: auto 1% auto 1%;
+  }
+}
+
 @media screen and(max-width: 425px) {
   .menu img {
     padding: 0 10px 0 0;
     height: 60%;
   }
   .info_h4, .info_h4:first-child, .info_h4:last-child {
-    width: 87%;
     margin: 0;
-    padding: 3px 0;
-    font-size: 10px;
+    //font-size: 10px;
+  }
+  .info a {
+    display: none;
   }
   .info {
     width: 46%;
     flex-direction: column;
     align-items: flex-start;
   }
+  .info_a {
+    display: flex;
+    width: 30%;
+  }
+  .info_a a img {
+    width: 80%;
+  }
+
   .menu {
     width: 44%;
   }
@@ -1441,7 +1417,7 @@ body {
   .menu_rolli_main_h2 {
     margin: 0;
     padding-bottom: 2rem;
-    font-size: 13px;
+    //font-size: 13px;
   }
   .owl-carousel {
     margin: 2rem 0;
@@ -1460,14 +1436,14 @@ body {
 
   }
   .logo > h1 {
-    font-size: 60px;
+    //font-size: 60px;
   }
   .greeting > h2 {
-    font-size: 16px;
+    //font-size: 100%;
     width: 60%;
   }
   .greeting > p {
-    font-size: 11px;
+    //font-size: 11px;
     width: 60%;
   }
   .advantage {
@@ -1477,7 +1453,7 @@ body {
     height: 5rem;
   }
   .advantage h2 {
-    font-size: 20px;
+    //font-size: 125%;
     padding: 2rem 0;
   }
   .adv_info_right {
@@ -1488,12 +1464,12 @@ body {
     width: 70%;
   }
   .adv_info_left > p {
-    font-size: 10px;
+    //font-size: 10px;
     padding-right: 15px;
     line-height: 15px;
   }
   .adv_footer_h3, .adv_info_left > h3 {
-    font-size: 12px;
+    //font-size: 75%;
   }
   .adv_footer_h3 {
     padding-top: 0;
@@ -1511,18 +1487,18 @@ body {
     padding: 0;
   }
   .container__title {
-    font-size: 20px;
+    //font-size: 125%;
     padding: 0;
     margin-bottom: 0;
   }
   .k_menu__title {
-    font-size: 16px;
+    //font-size: 100%;
   }
   .discounts_h1 {
-    font-size: 20px;
+    //font-size: 125%;
   }
   .discounts_h3, .discounts_h3_first {
-    font-size: 12px;
+    //font-size: 75%;
   }
   .discounts {
     padding: 2rem 0;
@@ -1531,7 +1507,7 @@ body {
     padding-top: 1rem;
   }
   .discounts_p, .discounts_p_first {
-    font-size: 11px;
+    //font-size: 11px;
     padding-bottom: 1rem;
   }
   .discounts_info_two {
@@ -1557,7 +1533,7 @@ body {
   .discounts_card_1, .discounts_card_2 {
     width: 11rem;
     height: 6rem;
-    left:5rem;
+    left: 5rem;
   }
   .map_sakura, .sakura_nav {
     height: 9rem;
@@ -1569,7 +1545,7 @@ body {
     padding: 1rem 0;
   }
   .footer_h3 {
-    font-size: 20px;
+    //font-size: 125%;
   }
   .header {
     padding-bottom: 2rem;
@@ -1580,10 +1556,10 @@ body {
     height: 11rem;
   }
   .menu > ul li a {
-    font-size: 10px;
+    //font-size: 10px;
   }
   .footer_info_h3, .footer_p {
-    font-size: 11px;
+    //font-size: 11px;
   }
   .footer_info_h3 {
     padding: 0;
@@ -1595,13 +1571,13 @@ body {
     height: 55%;
   }
   .menu_selection_p {
-    font-size: 12px;
+    //font-size: 75%;
   }
   .list {
     width: 45%;
   }
   .pizza_h4, .pizza_p {
-    font-size: 13px;
+    //font-size: 13px;
   }
   .pizza_img {
     margin: 20px 0 10px;
@@ -1621,7 +1597,7 @@ body {
   .menu_title_p {
     padding: 0;
     margin: 0;
-    font-size: 14px;
+    //font-size: 87.5%;
   }
   .closed_pizza_price_first {
     margin-top: 2rem;
@@ -1641,28 +1617,22 @@ body {
   .closed_pizza_price {
     width: 95%;
   }
-  .delivery_info:first-child {
-    width: 40%;
-  }
   .delivery_p:first-child {
     width: 40%;
   }
   .closed_black, .closed_grey, .closed_p, .delivery_p {
-    font-size: 11px;
-  }
-  .delivery_info {
-    width: 60%;
+    //font-size: 11px;
   }
   .delivery_h4 {
-    font-size: 11px;
+    //font-size: 11px;
   }
   .closed_p_2 {
-    font-size: 12px;
+    //font-size: 75%;
     margin-bottom: 0;
   }
   .menu_title_h2 {
     padding: 2rem 0 1rem;
-    font-size: 20px;
+    //font-size: 125%;
   }
   .delivery {
     height: auto;
@@ -1672,7 +1642,7 @@ body {
     padding: 2rem 0;
   }
   .want_h1 {
-    font-size: 20px;
+    //font-size: 125%;
   }
   .want_do_main {
     justify-content: center;
@@ -1686,17 +1656,17 @@ body {
     padding-top: 5px;
   }
   .want_do_h3 {
-    font-size: 20px;
+    //font-size: 125%;
     padding: 2rem 0 1rem;
   }
   .footer_info {
     width: 45%;
   }
   .rolli_menu_p {
-    font-size: 11px;
+    //font-size: 11px;
   }
   .mini_p, .rolli_h4, .rolli_p {
-    font-size: 11px;
+    //font-size: 11px;
   }
   .menu_rolli_main {
     display: flex;
@@ -1722,13 +1692,13 @@ body {
     margin: 1rem 0 1rem;
   }
   .mini_h4, .mini_h6, .mini_rolli_p {
-    font-size: 11px;
+    //font-size: 11px;
   }
   .assorted_p {
-    font-size: 11px;
+    //font-size: 11px;
   }
   .assorted_h4 {
-    font-size: 15px;
+    //font-size: 15px;
   }
   .hot_img {
 
@@ -1738,11 +1708,17 @@ body {
     height: 7rem;
   }
   .hot_h4, .hot_p {
-    font-size: 12px;
+    //font-size: 75%;
     font-weight: 500;
   }
   .hot_p {
     margin: 0 5px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .menu {
+    width: 51%;
   }
 }
 
@@ -1754,14 +1730,14 @@ body {
     top: 3.4rem;
   }
   .menu > ul li a {
-    font-size: 8px;
+    //font-size: 8px;
   }
   .logo {
     height: 10rem;
     margin-top: 0;
   }
   .advantage h2 {
-    font-size: 20px;
+    //font-size: 125%;
     padding: 0;
   }
   .adv_zag {
@@ -1813,21 +1789,21 @@ body {
     padding: 0 5px 0 0;
   }
   .menu > h1 {
-    font-size: 15px;
+    //font-size: 15px;
   }
   .info_h4, .info_h4:first-child, .info_h4:last-child {
     width: 90%;
     padding: 3px 11px;
-    font-size: 8px;
+    //font-size: 8px;
   }
   .menu_title_h2 {
-    font-size: 20px;
+    //font-size: 125%;
   }
   .menu_title_p {
-    font-size: 15px;
+    //font-size: 15px;
   }
   .pizza_h4, .pizza_p {
-    font-size: 11px;
+    //font-size: 11px;
   }
   .pizza_main_two {
     height: 100%;
@@ -1836,11 +1812,11 @@ body {
   }
   .pizza_menu_p {
     height: 6rem;
-    font-size: 14px;
+    //font-size: 87.5%;
 
   }
   .closed_pizza {
-    height: 86rem;
+    //height: 86rem;
   }
   .delivery_info:first-child {
     width: 90%;
@@ -1873,7 +1849,7 @@ body {
     line-height: 0.8;
   }
   .footer_info_h3, .footer_p {
-    font-size: 9px;
+    //font-size: 9px;
   }
   .adv_info_right > img, .burger_img, .discounts_img > img, .hot_img, .mini_img, .pizza_img, .rolli_img, .rolli_main_img {
     max-width: 90%;
@@ -1920,16 +1896,16 @@ body {
   .rolli_menu_h5 {
   }
   .adv_footer_h3, .adv_info_left > h3 {
-    font-size: 10px;
+    //font-size: 10px;
   }
   .adv_info_left > p {
-    font-size: 9px;
+    //font-size: 9px;
   }
   .discounts_h3, .discounts_h3_first {
-    font-size: 10px;
+    //font-size: 10px;
   }
   .discounts_p, .discounts_p_first {
-    font-size: 9px;
+    //font-size: 9px;
   }
   .discounts_h3_first {
     padding-top: 1rem;
@@ -1940,3 +1916,5 @@ body {
 
   }
 }
+
+
