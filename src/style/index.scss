@@ -130,18 +130,17 @@ body {
 }
 
 .menu ul li a:hover {
-  border-radius: 2rem;
-  border: 1px solid;
+  border-radius: 1rem;
   transition: 0.8s;
-  box-shadow: 0 0 2rem 1rem #fad84d inset, 0 0 6rem 1rem #e4da05;
+  box-shadow: 0 0 2rem 1rem #fbfbfb inset, 0 0 6rem 1rem #a7aeab;
   text-decoration: underline;
-  color: #FF0;
+  color: #222;
 
 }
 .menu_selection_p:hover {
-  border-radius: 2rem;
+  border-radius: 1rem;
   transition: 0.8s;
-  box-shadow: 0 0 2rem 1rem #fad84d inset, 0 0 6rem 1rem #e4da05;
+  box-shadow: 0 0 2rem 1rem #fbfbfb inset, 0 0 6rem 1rem #a7aeab;
   color: #FF0;
 
 }
@@ -1124,8 +1123,9 @@ body {
 }
 
 .google_map {
-  width: 780px;
+  width: 100%;
   height: 350px;
+
 }
 
 .info_a {
