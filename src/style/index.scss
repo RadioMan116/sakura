@@ -1390,6 +1390,9 @@ body {
 }
 
 @media screen and(max-width: 425px) {
+  .list {
+    font-size: 150%;
+  }
   .menu img {
     padding: 0 10px 0 0;
     height: 60%;
@@ -1658,10 +1661,19 @@ body {
   .rolliinfo {
     margin: 0;
   }
+  .rolli_menu_p {
+    padding-top: 1rem;
+  }
   .mini_main_rolli {
     width: 23%;
     height: auto;
     padding-bottom: 2rem;
+  }
+  .pizza_main_two {
+    padding: 4px 10%;
+  }
+  .pizza_h4 {
+    white-space: nowrap;
   }
   .assorted_info {
     width: 90%;
@@ -1694,6 +1706,7 @@ body {
     width: 51%;
   }
 }
+
 
 @media screen and(max-width: 320px) {
   .menu img:last-child {
