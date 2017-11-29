@@ -101,6 +101,10 @@ body {
   width: 4%;
   min-width: 1rem;
 }
+.info a:last-child {
+  width: fit-content;
+  min-width: 1rem;
+}
 
 .menu ul {
   list-style: none;
@@ -1397,10 +1401,13 @@ body {
     padding: 0 10px 0 0;
     height: 60%;
   }
-  .info_h4, .info_h4:last-child {
+  .info_h4 {
     margin: 0;
     border: none;
     }
+  .info a:last-child {
+    display: block;
+  }
   .info a {
     display: none;
   }
@@ -1670,7 +1677,7 @@ body {
     padding-bottom: 2rem;
   }
   .pizza_main_two {
-    padding: 4px 10%;
+    padding: 5spx 10%;
   }
   .pizza_h4 {
     white-space: nowrap;
