@@ -50,6 +50,7 @@ body {
   margin: 0 auto;
   flex-direction: column;
 }
+
 //внешний вид меню
 .header-info {
   background-color: rgba(255, 255, 255, 0.62);
@@ -100,6 +101,7 @@ body {
   width: 4%;
   min-width: 1rem;
 }
+
 .info a:last-child {
   width: fit-content;
   min-width: 1rem;
@@ -112,8 +114,6 @@ body {
   top: 4rem;
   transition: 0.8s;
 }
-
-
 
 .menu > ul li a {
   display: block;
@@ -140,6 +140,7 @@ body {
   color: #222;
 
 }
+
 .menu_selection_p:hover {
   border-radius: 1rem;
   transition: 0.8s;
@@ -540,6 +541,7 @@ body {
   font-weight: 100;
   font-size: 100%;
 }
+
 //пицца
 .menu_main {
   width: 100%;
@@ -615,7 +617,7 @@ body {
   margin: 0;
   width: 100%;
   height: 70px;
-  padding:10px 0;
+  padding: 10px 0;
   font-size: 100%;
   font-weight: 900;
   font-style: italic;
@@ -677,6 +679,7 @@ body {
   margin: 1rem auto 0;
   width: 81%;
 }
+
 .pizza_h4, .pizza_menu_h5, .rolli_h4, .rolli_menu_h5 {
   white-space: nowrap;
 }
@@ -1137,6 +1140,7 @@ body {
 .info_a {
   display: none;
 }
+
 @media screen and(max-width: 1000px) {
   body {
     font-size: 95%;
@@ -1240,11 +1244,11 @@ body {
 
   }
   .menu_selection_p {
-    }
+  }
   .menu_title_h2 {
-    }
+  }
   .menu_title_p {
-    }
+  }
   .menu_assortment {
     padding-bottom: 2rem;
   }
@@ -1256,38 +1260,37 @@ body {
     height: 8rem;
   }
   .closed_black, .closed_p {
-    }
+  }
   .closed_grey {
-    }
+  }
   .closed_bg {
     padding: 1rem 0;
   }
   .delivery_p {
-    }
+  }
   .delivery_h4 {
-      line-height: 2rem;
+    line-height: 2rem;
   }
   .menu_rolli_main_h2 {
-    }
-  .mini_p {
-      padding: 0 3px;
   }
-  .mini_h4, .mini_rolli_p {
-   ;
+  .mini_p {
+    padding: 0 3px;
+  }
+  .mini_h4, .mini_rolli_p {;
 
   }
   .mini_h6 {
-    }
+  }
   .assorted_h4 {
-    }
+  }
   .assorted_h4 {
-    }
+  }
   .menu ul {
-    }
+  }
   .container__title {
-    }
+  }
   .hot_h4, .hot_p {
-      font-weight: 500;
+    font-weight: 500;
   }
   .hot_img {
 
@@ -1300,7 +1303,7 @@ body {
   }
   .rolli_menu_p {
     width: 90%;
-    }
+  }
 }
 
 @media screen and(max-width: 700px) {
@@ -1311,7 +1314,7 @@ body {
 
 @media screen and(max-width: 650px) {
   body {
-    }
+  }
 }
 
 @media screen and(max-width: 625px) {
@@ -1323,7 +1326,7 @@ body {
     width: 16%;
   }
   .mini_p, .rolli_h4, .rolli_p {
-    }
+  }
   .mini_img {
     height: 5rem;
   }
@@ -1331,9 +1334,9 @@ body {
 
   }
   .mini_h4, .mini_h6, .mini_rolli_p {
-    }
+  }
   .menu ul {
-    }
+  }
   .greeting > p, .greeting > h2 {
     width: 58%
   }
@@ -1345,7 +1348,7 @@ body {
     width: 8rem;
   }
   .pizza_h4, .pizza_p {
-    }
+  }
   .pizza_h4 {
     margin: 15px auto;
   }
@@ -1356,7 +1359,7 @@ body {
   }
   .pizza_main_two {
     width: 81%;
-    padding:0 10%;
+    padding: 0 10%;
   }
   .discounts_h3_first {
     //height: 1rem;
@@ -1406,7 +1409,7 @@ body {
   .info_h4 {
     margin: 0;
     border: none;
-    }
+  }
   .info a:last-child {
     display: block;
   }
@@ -1435,7 +1438,7 @@ body {
   .menu_rolli_main_h2 {
     margin: 0;
     padding-bottom: 2rem;
-    }
+  }
   .owl-carousel {
     margin: 2rem 0;
   }
@@ -1446,18 +1449,18 @@ body {
     padding-right: 10px;
   }
   .menu ul {
-    }
+  }
   .logo {
     height: 5rem;
 
   }
   .logo > h1 {
-    }
+  }
   .greeting > h2 {
-      width: 60%;
+    width: 60%;
   }
   .greeting > p {
-      width: 60%;
+    width: 60%;
   }
   .advantage {
     padding: 0;
@@ -1466,7 +1469,7 @@ body {
     height: 5rem;
   }
   .advantage h2 {
-      padding: 2rem 0;
+    padding: 2rem 0;
   }
   .adv_info_right {
     width: 30%;
@@ -1476,11 +1479,11 @@ body {
     width: 70%;
   }
   .adv_info_left > p {
-      padding-right: 15px;
+    padding-right: 15px;
     line-height: 15px;
   }
   .adv_footer_h3, .adv_info_left > h3 {
-    }
+  }
   .adv_footer_h3 {
     padding-top: 0;
   }
@@ -1497,15 +1500,15 @@ body {
     padding: 0;
   }
   .container__title {
-      padding: 0;
+    padding: 0;
     margin-bottom: 0;
   }
   .k_menu__title {
-    }
+  }
   .discounts_h1 {
-    }
+  }
   .discounts_h3, .discounts_h3_first {
-    }
+  }
   .discounts {
     padding: 2rem 0;
   }
@@ -1513,7 +1516,7 @@ body {
     padding-top: 1rem;
   }
   .discounts_p, .discounts_p_first {
-      padding-bottom: 1rem;
+    padding-bottom: 1rem;
   }
   .discounts_info_two {
     width: 60%;
@@ -1550,7 +1553,7 @@ body {
     padding: 1rem 0;
   }
   .footer_h3 {
-    }
+  }
   .header {
     padding-bottom: 2rem;
     height: auto;
@@ -1560,9 +1563,9 @@ body {
     height: 11rem;
   }
   .menu > ul li a {
-    }
+  }
   .footer_info_h3, .footer_p {
-    }
+  }
   .footer_info_h3 {
   }
   .menu_selection {
@@ -1572,12 +1575,12 @@ body {
     height: 55%;
   }
   .menu_selection_p {
-    }
+  }
   .list {
     width: 45%;
   }
   .pizza_h4, .pizza_p {
-    }
+  }
   .pizza_img {
     margin: 20px 0 10px;
   }
@@ -1596,7 +1599,7 @@ body {
   .menu_title_p {
     padding: 0;
     margin: 0;
-    }
+  }
   .closed_pizza_price_first {
     margin-top: 2rem;
   }
@@ -1619,15 +1622,15 @@ body {
     width: 40%;
   }
   .closed_black, .closed_grey, .closed_p, .delivery_p {
-    }
+  }
   .delivery_h4 {
-    }
+  }
   .closed_p_2 {
-      margin-bottom: 0;
+    margin-bottom: 0;
   }
   .menu_title_h2 {
     padding: 2rem 0 1rem;
-    }
+  }
   .delivery {
     height: auto;
     padding-bottom: 2rem;
@@ -1636,7 +1639,7 @@ body {
     padding: 2rem 0;
   }
   .want_h1 {
-    }
+  }
   .want_do_main {
     justify-content: center;
   }
@@ -1648,16 +1651,16 @@ body {
     width: 9rem;
   }
   .want_do_h3 {
-      padding: 2rem 0 1rem;
+    padding: 2rem 0 1rem;
   }
   .footer_info {
     width: 45%;
   }
   .rolli_menu_p {
-    }
+  }
   .mini_p, .rolli_h4, .rolli_p {
 
-    }
+  }
   .menu_rolli_main {
     display: flex;
     flex-direction: column;
@@ -1691,11 +1694,11 @@ body {
     margin: 1rem 0 1rem;
   }
   .mini_h4, .mini_h6, .mini_rolli_p {
-    }
+  }
   .assorted_p {
-    }
+  }
   .assorted_h4 {
-    }
+  }
   .hot_img {
 
   }
@@ -1704,7 +1707,7 @@ body {
     height: 7rem;
   }
   .hot_h4, .hot_p {
-      font-weight: 500;
+    font-weight: 500;
   }
   .hot_p {
   }
@@ -1716,21 +1719,20 @@ body {
   }
 }
 
-
 @media screen and(max-width: 320px) {
   .menu img:last-child {
     height: 47%;
   }
   .menu ul {
-    }
+  }
   .menu > ul li a {
-    }
+  }
   .logo {
     height: 10rem;
     margin-top: 0;
   }
   .advantage h2 {
-      padding: 0;
+    padding: 0;
   }
   .adv_zag {
     height: auto;
@@ -1781,29 +1783,28 @@ body {
     padding: 0 5px 0 0;
   }
   .menu > h1 {
-    }
+  }
   .info_h4, .info_h4:first-child, .info_h4:last-child {
     width: 90%;
     padding: 3px 11px;
-    }
+  }
   .menu_title_h2 {
-    }
+  }
   .menu_title_p {
-    }
+  }
   .pizza_h4, .pizza_p {
-    }
+  }
   .pizza_main_two {
     height: 100%;
     width: 92%;
     padding: 0 5px;
   }
   .pizza_menu_p {
-    height: 6rem;
-   ;
+    height: 6rem;;
 
   }
   .closed_pizza {
-    }
+  }
   .delivery_info:first-child {
     width: 90%;
   }
@@ -1835,7 +1836,7 @@ body {
     line-height: 0.8;
   }
   .footer_info_h3, .footer_p {
-    }
+  }
   .adv_info_right > img, .burger_img, .discounts_img > img, .hot_img, .mini_img, .pizza_img, .rolli_img, .rolli_main_img {
     max-width: 90%;
   }
@@ -1880,13 +1881,13 @@ body {
   .rolli_menu_h5 {
   }
   .adv_footer_h3, .adv_info_left > h3 {
-    }
+  }
   .adv_info_left > p {
-    }
+  }
   .discounts_h3, .discounts_h3_first {
-    }
+  }
   .discounts_p, .discounts_p_first {
-    }
+  }
   .discounts_h3_first {
     padding-top: 1rem;
   }
