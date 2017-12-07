@@ -511,7 +511,13 @@ body {
 }
 
 .footer_info {
-  width: 50%;
+  width: 40%;
+}
+.footer_info:nth-child(2) {
+  width: 30%;
+}
+.footer_info:last-child {
+  width: 30%;
 }
 
 .footer_h3 {
@@ -1147,6 +1153,20 @@ body {
 
 .info_a {
   display: none;
+}
+
+.mib {
+  color: white;
+  font-size: 100%;
+}
+
+.mib_a {
+  text-decoration: none;
+  background: #222;
+  color:white;
+  font-size: 120%;
+  text-shadow: 0 0 6px rgba(255,255,255,0.7);
+  white-space: nowrap;
 }
 
 @media screen and(max-width: 1000px) {
